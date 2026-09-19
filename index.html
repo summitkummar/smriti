@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-<title>स्मृति — NCERT Memory Studio | Class 6-12 Mind Maps, Mnemonics & PYQ Hub</title>
-<meta name="description" content="स्मृति — भारत का पहला NCERT Memory Studio। Class 6-12 की सभी books, Visual Memory Cards, Mnemonic, Spaced Repetition और 15+ राज्यों के Previous Year Question Papers। 100% Offline, बिल्कुल फ्री।">
-<meta name="keywords" content="NCERT memory, NCERT class 6-12, mind map, mnemonic, spaced repetition, PYQ hub, previous year papers, CBSE, HBSE, UP board, Maharashtra board, Tamil Nadu board, study app India">
+<title>स्मृति — UPSC & Exam Prep Hub | Current Affairs, PYQ, NCERT</title>
+<meta name="description" content="स्मृति — UPSC और सभी सरकारी परीक्षाओं की तैयारी के लिए एक ही जगह। Current Affairs (PIB), Previous Year Papers, NCERT books, State Boards और History & Heritage। 100% Offline।">
+<meta name="keywords" content="UPSC, current affairs, PIB, previous year papers, PYQ, NCERT, state board, CBSE, SSC, exam prep, India">
 <meta name="author" content="Summit Kummar">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#1A0B2E">
@@ -15,15 +15,15 @@
 <link rel="manifest" href="manifest.json">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://summitkummar.github.io/smriti/">
-<meta property="og:title" content="स्मृति — NCERT Memory Studio">
-<meta property="og:description" content="Class 6-12 NCERT chapters को Visual Memory Cards में बदलो। PYQ Hub के साथ हर board के papers। 100% Offline।">
+<meta property="og:title" content="स्मृति — UPSC & Exam Prep Hub">
+<meta property="og:description" content="Current Affairs, PYQ, NCERT, State Boards — सब एक जगह। 100% Offline।">
 <meta property="og:site_name" content="स्मृति">
 <meta property="og:locale" content="hi_IN">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:title" content="स्मृति — NCERT Memory Studio">
-<meta property="twitter:description" content="Class 6-12 NCERT chapters को Visual Memory Cards में बदलो। 100% Offline।">
+<meta property="twitter:title" content="स्मृति — UPSC & Exam Prep Hub">
+<meta property="twitter:description" content="Current Affairs, PYQ, NCERT, State Boards — सब एक जगह।">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"EducationalOrganization","name":"स्मृति — NCERT Memory Studio","url":"https://summitkummar.github.io/smriti/","description":"Visual memory studio for NCERT Class 6-12 students.","author":{"@type":"Person","name":"Summit Kummar"},"inLanguage":["hi","en"],"offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}
+{"@context":"https://schema.org","@type":"EducationalOrganization","name":"स्मृति — UPSC & Exam Prep Hub","url":"https://summitkummar.github.io/smriti/","description":"Exam preparation hub for UPSC and all government exams.","author":{"@type":"Person","name":"Summit Kummar"},"inLanguage":["hi","en"],"offers":{"@type":"Offer","price":"0","priceCurrency":"INR"}}
 </script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%231A0B2E'/><stop offset='0.5' stop-color='%236D28D9'/><stop offset='1' stop-color='%23F59E0B'/></linearGradient></defs><rect width='100' height='100' rx='24' fill='url(%23g)'/><text x='50' y='72' font-size='58' text-anchor='middle' fill='%23FFFFFF' font-family='serif' font-weight='900'>स</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -43,7 +43,6 @@
   --sh-md:0 8px 24px rgba(26,11,46,.10);
   --sh-lg:0 20px 48px rgba(26,11,46,.15);
   --sh-xl:0 32px 64px rgba(26,11,46,.22);
-  --sh-glow:0 8px 32px rgba(109,40,217,.3);
 }
 [data-theme="dark"]{
   --bg:#0A0418;--bg-2:#150A2E;--bg-3:#1F1147;
@@ -88,7 +87,7 @@ a{color:inherit;text-decoration:none;}
 .h-btn{width:38px;height:38px;border-radius:11px;background:rgba(245,158,11,.15);color:#FCD34D;display:flex;align-items:center;justify-content:center;font-size:.85rem;border:1px solid rgba(245,158,11,.25);transition:all .15s;}
 .h-btn:active{transform:scale(.9);background:rgba(245,158,11,.3);}
 
-/* SEARCH BAR */
+/* SEARCH */
 .search-wrap{padding:0 18px;max-width:820px;margin:14px auto 0;}
 .search-box{display:flex;align-items:center;gap:10px;background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:12px 16px;box-shadow:var(--sh-sm);transition:all .2s;}
 .search-box:focus-within{border-color:var(--purple-4);box-shadow:0 0 0 4px rgba(109,40,217,.1);}
@@ -104,7 +103,7 @@ a{color:inherit;text-decoration:none;}
 .screen.on{display:block;animation:fade .4s;}
 @keyframes fade{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:translateY(0);}}
 
-/* WELCOME HERO */
+/* HERO */
 .hero{background:linear-gradient(135deg,#2D1B4E 0%,#4C1D95 50%,#6D28D9 100%);border-radius:24px;padding:28px 24px;color:#F5F3FF;margin-bottom:22px;position:relative;overflow:hidden;box-shadow:0 20px 60px rgba(76,29,149,.35);}
 .hero::before{content:'';position:absolute;top:-100px;right:-60px;width:280px;height:280px;background:radial-gradient(circle,rgba(245,158,11,.25),transparent 70%);border-radius:50%;}
 .hero::after{content:'';position:absolute;bottom:-120px;left:-60px;width:240px;height:240px;background:radial-gradient(circle,rgba(139,92,246,.3),transparent 70%);border-radius:50%;}
@@ -117,12 +116,6 @@ a{color:inherit;text-decoration:none;}
 .hero-btn:active{transform:scale(.96);background:rgba(245,158,11,.35);}
 .hero-btn.gold{background:linear-gradient(145deg,#F59E0B,#FBBF24);color:#1A0B2E;border:none;box-shadow:0 8px 24px rgba(245,158,11,.4);}
 
-/* STATS MINI */
-.stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:22px;position:relative;}
-.stat-mini{background:rgba(255,255,255,.08);backdrop-filter:blur(10px);border-radius:14px;padding:14px 10px;text-align:center;border:1px solid rgba(255,255,255,.12);}
-.stat-mini .v{font-size:1.6rem;font-weight:900;color:#FCD34D;letter-spacing:-1px;line-height:1;font-family:'Playfair Display',serif;}
-.stat-mini .l{font-size:.56rem;font-weight:800;color:rgba(245,243,255,.6);text-transform:uppercase;letter-spacing:1.2px;margin-top:6px;}
-
 /* SECTION */
 .sec-head{display:flex;align-items:center;justify-content:space-between;margin:28px 4px 14px;}
 .sec-head h3{font-size:1.08rem;font-weight:900;color:var(--ink);display:flex;align-items:center;gap:10px;letter-spacing:-.3px;font-family:'Noto Sans Devanagari','Playfair Display',serif;}
@@ -130,37 +123,30 @@ a{color:inherit;text-decoration:none;}
 .sec-head .small-link{font-size:.7rem;font-weight:800;color:var(--purple-4);padding:7px 14px;border-radius:10px;background:var(--bg-2);border:1px solid var(--line);}
 .sec-head .small-link.gold{background:linear-gradient(145deg,#F59E0B,#FBBF24);color:#1A0B2E;border:none;box-shadow:0 4px 14px rgba(245,158,11,.3);}
 
-/* CLASS ROW */
-.class-row{display:flex;gap:8px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none;}
-.class-row::-webkit-scrollbar{display:none;}
-.class-btn{flex-shrink:0;padding:12px 22px;border-radius:14px;background:var(--card);border:1.5px solid var(--line);font-weight:800;font-size:.85rem;color:var(--ink-2);transition:all .2s;box-shadow:var(--sh-sm);font-family:'Playfair Display',serif;letter-spacing:-.2px;}
-.class-btn.on{background:linear-gradient(145deg,#6D28D9,#8B5CF6);color:#FFFFFF;border-color:transparent;box-shadow:0 8px 24px rgba(109,40,217,.35);}
+/* CATEGORY GRID (Main dashboard) */
+.cat-grid{display:grid;grid-template-columns:1fr;gap:14px;}
+.cat-card{background:var(--card);border-radius:20px;padding:22px 20px;display:flex;align-items:center;gap:16px;box-shadow:var(--sh-md);border:1.5px solid var(--line);position:relative;cursor:pointer;transition:all .2s;text-align:left;overflow:hidden;}
+.cat-card:active{transform:scale(.98);box-shadow:var(--sh-lg);}
+.cat-card::before{content:'';position:absolute;top:0;left:0;bottom:0;width:6px;background:linear-gradient(180deg,var(--cc1,#6D28D9),var(--cc2,#F59E0B));}
+.cat-icon{width:60px;height:60px;border-radius:18px;background:linear-gradient(145deg,var(--cc1,#6D28D9),var(--cc2,#F59E0B));color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.7rem;flex-shrink:0;box-shadow:0 10px 24px rgba(0,0,0,.15);}
+.cat-body{flex:1;min-width:0;}
+.cat-body h3{font-size:1.05rem;font-weight:900;color:var(--ink);margin-bottom:5px;font-family:'Playfair Display','Noto Sans Devanagari',serif;letter-spacing:-.3px;}
+.cat-body p{font-size:.74rem;color:var(--ink-4);font-weight:600;line-height:1.4;}
+.cat-arrow{width:36px;height:36px;border-radius:50%;background:var(--bg-2);color:var(--ink-3);display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0;}
 
-/* BOOK GRID */
-.book-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
-.book-card{background:var(--card);border-radius:18px;padding:18px 16px;box-shadow:var(--sh-md);border:1.5px solid var(--line);position:relative;cursor:pointer;transition:all .2s;overflow:hidden;text-align:left;display:flex;flex-direction:column;min-height:140px;}
-.book-card:active{transform:scale(.97);}
-.book-card::before{content:'';position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--bc1,#6D28D9),var(--bc2,#F59E0B));}
-.book-card:hover{box-shadow:var(--sh-lg);}
-.book-emoji{font-size:2rem;margin-bottom:10px;line-height:1;}
-.book-name{font-size:.92rem;font-weight:900;color:var(--ink);line-height:1.25;font-family:'Playfair Display','Noto Sans Devanagari',serif;letter-spacing:-.3px;margin-bottom:4px;}
-.book-sub{font-size:.68rem;font-weight:600;color:var(--ink-4);letter-spacing:.3px;}
-.book-count{font-size:.65rem;font-weight:800;color:var(--purple-4);margin-top:auto;display:flex;align-items:center;gap:6px;padding-top:10px;}
-
-/* CHAPTER ITEM */
-.chapter-item{background:var(--card);border-radius:16px;padding:16px 18px;display:flex;align-items:center;gap:14px;border:1.5px solid var(--line);margin-bottom:10px;box-shadow:var(--sh-sm);transition:all .2s;text-align:left;width:100%;position:relative;overflow:hidden;}
-.chapter-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,#6D28D9,#F59E0B);}
-.chapter-item:active{transform:scale(.985);box-shadow:var(--sh-md);}
-.chap-num{width:44px;height:44px;border-radius:50%;background:linear-gradient(145deg,#4C1D95,#6D28D9);color:#FCD34D;display:flex;align-items:center;justify-content:center;font-size:1rem;font-weight:900;flex-shrink:0;font-family:'Playfair Display',serif;box-shadow:0 6px 16px rgba(76,29,149,.3);}
-.chap-body{flex:1;min-width:0;}
-.chap-body h4{font-size:.88rem;font-weight:900;color:var(--ink);margin-bottom:4px;line-height:1.3;font-family:'Playfair Display','Noto Sans Devanagari',serif;letter-spacing:-.2px;}
-.chap-body p{font-size:.7rem;color:var(--ink-4);font-weight:700;}
-.chap-arrow{color:var(--ink-4);font-size:.85rem;}
+/* LIST CARD (for links) */
+.list-card{background:var(--card);border-radius:16px;padding:16px 18px;border:1.5px solid var(--line);margin-bottom:10px;display:flex;align-items:center;gap:14px;box-shadow:var(--sh-sm);text-align:left;width:100%;transition:all .2s;cursor:pointer;}
+.list-card:active{transform:scale(.98);box-shadow:var(--sh-md);}
+.list-icon{width:46px;height:46px;border-radius:14px;background:linear-gradient(145deg,#4C1D95,#6D28D9);color:#FCD34D;display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex-shrink:0;font-weight:900;font-family:'Playfair Display',serif;box-shadow:0 6px 18px rgba(76,29,149,.3);}
+.list-body{flex:1;min-width:0;}
+.list-body h4{font-size:.9rem;font-weight:900;color:var(--ink);margin-bottom:3px;font-family:'Playfair Display','Noto Sans Devanagari',serif;letter-spacing:-.2px;}
+.list-body p{font-size:.7rem;color:var(--ink-4);font-weight:700;}
+.list-arrow{color:var(--ink-4);font-size:.9rem;flex-shrink:0;}
 
 /* EMPTY */
 .empty{text-align:center;padding:50px 24px;background:var(--card);border-radius:20px;border:2px dashed var(--line-2);}
 .empty .empty-emo{font-size:3rem;margin-bottom:14px;opacity:.7;}
-.empty h4{font-size:.95rem;font-weight:900;color:var(--ink);margin-bottom:8px;font-family:'Playfair Display','Noto Sans Devanagari',serif;}
+.empty h4{font-size:.95rem;font-weight:900;color:var(--ink);margin-bottom:8px;}
 .empty p{font-size:.78rem;color:var(--ink-4);font-weight:600;max-width:280px;margin:0 auto;line-height:1.6;}
 
 /* BUILDER HEAD */
@@ -172,15 +158,13 @@ a{color:inherit;text-decoration:none;}
 
 /* MEMORY CARDS */
 .memory-list{display:flex;flex-direction:column;gap:12px;}
-.mem-card{background:var(--card);border-radius:16px;overflow:hidden;border:1.5px solid var(--line);box-shadow:var(--sh-md);position:relative;animation:fadeIn .3s;}
-@keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+.mem-card{background:var(--card);border-radius:16px;overflow:hidden;border:1.5px solid var(--line);box-shadow:var(--sh-md);position:relative;}
 .mem-card .mem-top{height:6px;background:linear-gradient(90deg,var(--mc,#6D28D9),var(--mc2,#F59E0B));}
 .mem-card .mem-body{padding:16px 18px;display:flex;gap:14px;align-items:flex-start;}
 .mem-num{width:40px;height:40px;border-radius:50%;background:linear-gradient(145deg,var(--mc,#6D28D9),var(--mc2,#F59E0B));color:#fff;display:flex;align-items:center;justify-content:center;font-size:.95rem;font-weight:900;flex-shrink:0;font-family:'Playfair Display',serif;box-shadow:0 6px 16px rgba(0,0,0,.15);}
 .mem-content{flex:1;min-width:0;}
 .mem-key{font-size:1.02rem;font-weight:900;color:var(--ink);line-height:1.35;letter-spacing:-.3px;font-family:'Playfair Display','Noto Sans Devanagari',serif;margin-bottom:6px;word-break:break-word;}
 .mem-desc{font-size:.84rem;font-weight:600;color:var(--ink-2);line-height:1.7;word-break:break-word;}
-.mem-desc b{color:var(--purple-4);font-weight:900;}
 .mem-desc code{background:linear-gradient(145deg,#FEF3C7,#FDE68A);color:#78350F;padding:3px 10px;border-radius:8px;font-family:'Courier New',monospace;font-weight:900;font-size:.85rem;border:1.5px solid #FCD34D;display:inline-block;margin:2px 0;}
 .mem-del{width:32px;height:32px;border-radius:9px;background:rgba(220,38,38,.08);color:var(--red);display:flex;align-items:center;justify-content:center;font-size:.75rem;flex-shrink:0;}
 
@@ -224,32 +208,6 @@ a{color:inherit;text-decoration:none;}
 .flashcard .fc-answer{font-size:.95rem;font-weight:700;color:var(--green);margin-top:22px;padding-top:20px;border-top:2px dashed #FCD34D;line-height:1.65;font-family:'Noto Sans Devanagari',sans-serif;}
 .flashcard.revealed{background:linear-gradient(145deg,#ECFDF5,#D1FAE5);border-color:#10B981;}
 
-/* REVISION ITEM */
-.rev-item{background:var(--card);border-radius:16px;padding:16px;display:flex;align-items:center;gap:14px;border:1.5px solid var(--line);margin-bottom:10px;box-shadow:var(--sh-sm);cursor:pointer;text-align:left;width:100%;position:relative;overflow:hidden;}
-.rev-item.due{border-color:#FCD34D;background:linear-gradient(145deg,#FFFBEB,#FEF3C7);}
-.rev-item.due::before{content:'';position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,#F59E0B,#FCD34D);}
-.rev-num{width:44px;height:44px;border-radius:50%;background:var(--bg-2);display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex-shrink:0;border:1.5px solid var(--line);font-weight:900;color:var(--purple-4);font-family:'Playfair Display',serif;}
-.rev-item.due .rev-num{background:linear-gradient(145deg,#F59E0B,#FCD34D);border-color:#D97706;color:#1A0B2E;}
-.rev-body{flex:1;min-width:0;}
-.rev-body h4{font-size:.86rem;font-weight:900;color:var(--ink);margin-bottom:4px;line-height:1.3;font-family:'Playfair Display','Noto Sans Devanagari',serif;}
-.rev-body p{font-size:.68rem;color:var(--ink-4);font-weight:700;display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
-.rev-body .due-tag{color:#78350F;font-weight:900;background:rgba(245,158,11,.25);padding:3px 10px;border-radius:100px;font-size:.6rem;letter-spacing:.5px;}
-
-/* STATS GRID */
-.stats-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:16px;}
-.stat-box{background:var(--card);border-radius:18px;padding:20px 16px;border:1.5px solid var(--line);box-shadow:var(--sh-sm);text-align:center;}
-.stat-box .v{font-size:2rem;font-weight:900;color:var(--purple-4);letter-spacing:-1px;line-height:1;font-family:'Playfair Display',serif;}
-.stat-box .l{font-size:.6rem;font-weight:900;color:var(--ink-4);text-transform:uppercase;letter-spacing:1.3px;margin-top:8px;}
-
-/* PYQ SECTION */
-.pyq-card{background:var(--card);border-radius:16px;padding:16px 18px;border:1.5px solid var(--line);margin-bottom:10px;display:flex;align-items:center;gap:14px;box-shadow:var(--sh-sm);text-align:left;width:100%;transition:all .2s;}
-.pyq-card:active{transform:scale(.98);box-shadow:var(--sh-md);}
-.pyq-icon{width:48px;height:48px;border-radius:14px;background:linear-gradient(145deg,#6D28D9,#8B5CF6);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;font-weight:900;font-family:'Playfair Display',serif;box-shadow:0 6px 18px rgba(109,40,217,.3);}
-.pyq-body{flex:1;min-width:0;}
-.pyq-body h4{font-size:.88rem;font-weight:900;color:var(--ink);margin-bottom:3px;font-family:'Playfair Display','Noto Sans Devanagari',serif;letter-spacing:-.2px;}
-.pyq-body p{font-size:.7rem;color:var(--ink-4);font-weight:700;}
-.pyq-arrow{color:var(--ink-4);font-size:.9rem;flex-shrink:0;}
-
 /* MODAL */
 .modal{position:fixed;inset:0;background:rgba(26,11,46,.75);z-index:1000;display:none;align-items:flex-end;justify-content:center;backdrop-filter:blur(10px);}
 .modal.open{display:flex;}
@@ -266,14 +224,7 @@ a{color:inherit;text-decoration:none;}
 .inp{width:100%;padding:14px 16px;border:1.5px solid var(--line);border-radius:13px;background:var(--bg);outline:none;font-size:.88rem;font-weight:700;color:var(--ink);transition:all .2s;}
 .inp:focus{border-color:var(--purple-4);background:var(--card);box-shadow:0 0 0 4px rgba(109,40,217,.1);}
 
-/* TOAST */
-.toast-wrap{position:fixed;top:calc(16px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:9999;display:flex;flex-direction:column;gap:8px;width:calc(100% - 32px);max-width:420px;pointer-events:none;}
-.toast{background:linear-gradient(145deg,#2D1B4E,#4C1D95);border-radius:15px;padding:15px 20px;box-shadow:0 16px 40px rgba(26,11,46,.5);border:1px solid rgba(245,158,11,.35);display:flex;align-items:center;gap:12px;animation:tin .35s;pointer-events:auto;}
-@keyframes tin{from{opacity:0;transform:translateY(-16px);}to{opacity:1;transform:translateY(0);}}
-.toast-ic{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:.9rem;background:rgba(245,158,11,.2);color:#FCD34D;flex-shrink:0;}
-.toast h5{font-size:.82rem;font-weight:800;color:#F5F3FF;}
-
-/* LANGUAGE SELECTOR */
+/* LANGUAGE GRID */
 .lang-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
 .lang-card{background:var(--card);border-radius:14px;padding:14px;border:2px solid var(--line);display:flex;align-items:center;gap:12px;cursor:pointer;transition:all .2s;text-align:left;width:100%;}
 .lang-card:active{transform:scale(.97);}
@@ -294,7 +245,13 @@ a{color:inherit;text-decoration:none;}
 .social-btn svg{width:24px;height:24px;fill:#fff;}
 .social-btn.fb{background:#1877F2;}
 .social-btn.ig{background:linear-gradient(45deg,#F58529,#DD2A7B,#8134AF,#515BD4);}
-.social-btn.wa{background:#25D366;}
+
+/* TOAST */
+.toast-wrap{position:fixed;top:calc(16px + env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:9999;display:flex;flex-direction:column;gap:8px;width:calc(100% - 32px);max-width:420px;pointer-events:none;}
+.toast{background:linear-gradient(145deg,#2D1B4E,#4C1D95);border-radius:15px;padding:15px 20px;box-shadow:0 16px 40px rgba(26,11,46,.5);border:1px solid rgba(245,158,11,.35);display:flex;align-items:center;gap:12px;animation:tin .35s;pointer-events:auto;}
+@keyframes tin{from{opacity:0;transform:translateY(-16px);}to{opacity:1;transform:translateY(0);}}
+.toast-ic{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:.9rem;background:rgba(245,158,11,.2);color:#FCD34D;flex-shrink:0;}
+.toast h5{font-size:.82rem;font-weight:800;color:#F5F3FF;}
 
 /* INSTALL BANNER */
 .install-banner{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:linear-gradient(145deg,#2D1B4E,#4C1D95);padding:16px 20px;border-radius:20px;box-shadow:0 24px 60px rgba(26,11,46,.6);display:none;align-items:center;gap:14px;z-index:500;max-width:calc(100% - 32px);width:420px;border:1.5px solid rgba(245,158,11,.4);}
@@ -306,14 +263,9 @@ a{color:inherit;text-decoration:none;}
 .install-banner button{background:linear-gradient(145deg,#F59E0B,#FBBF24);color:#1A0B2E;padding:10px 16px;border-radius:12px;font-weight:900;font-size:.76rem;flex-shrink:0;}
 .install-banner .ib-close{color:rgba(245,243,255,.5);font-size:.9rem;padding:4px;}
 
-/* PRINT */
-@media print{
-  .header,.btn,.btn-row,.sec-head,.no-print,.toast-wrap,.footer,.h-actions,.install-banner,.search-wrap{display:none!important;}
-  body{background:#fff;}
-  .container{padding:0;max-width:100%;}
-  .mem-card{page-break-inside:avoid;box-shadow:none;border:1px solid #ddd;}
-  @page{margin:15mm;}
-}
+/* FOOTER */
+.footer{text-align:center;padding:32px 16px 14px;font-size:.7rem;color:var(--ink-4);font-weight:700;letter-spacing:.5px;}
+.footer i{color:#DC2626;}
 </style>
 </head>
 <body>
@@ -324,9 +276,9 @@ a{color:inherit;text-decoration:none;}
     <div class="splash-logo">स</div>
   </div>
   <div class="splash-name">स्मृति</div>
-  <div class="splash-tag">NCERT MEMORY STUDIO</div>
+  <div class="splash-tag">EXAM PREP HUB</div>
   <div class="splash-divider"></div>
-  <div class="splash-tag2">हर चैप्टर, एक picture में</div>
+  <div class="splash-tag2">UPSC · State PSC · All Exams</div>
   <div class="splash-made">Made in India · 100% Offline</div>
 </div>
 
@@ -336,10 +288,10 @@ a{color:inherit;text-decoration:none;}
     <div class="h-logo">स</div>
     <div class="h-title">
       <h1 id="h-title">स्मृति</h1>
-      <p id="h-sub">NCERT MEMORY STUDIO</p>
+      <p id="h-sub">EXAM PREP HUB</p>
     </div>
     <div class="h-actions">
-      <button class="h-btn" id="lang-btn" onclick="openLangModal()" title="Language"><i class="fas fa-language"></i></button>
+      <button class="h-btn" onclick="openLangModal()" title="Language"><i class="fas fa-language"></i></button>
       <button class="h-btn" onclick="openShare()" title="Share"><i class="fas fa-share-alt"></i></button>
       <button class="h-btn" onclick="openAbout()" title="About"><i class="fas fa-user-circle"></i></button>
       <button class="h-btn" onclick="toggleTheme()" id="theme-btn" title="Theme"><i class="fas fa-moon"></i></button>
@@ -351,7 +303,7 @@ a{color:inherit;text-decoration:none;}
 <div class="search-wrap">
   <div class="search-box">
     <i class="fas fa-search"></i>
-    <input type="text" id="search-inp" placeholder="Chapter खोजें..." oninput="doSearch()">
+    <input type="text" id="search-inp" placeholder="Search exams, states, topics..." oninput="doSearch()">
   </div>
 </div>
 
@@ -360,9 +312,9 @@ a{color:inherit;text-decoration:none;}
 <!-- HOME -->
 <div class="screen on" id="scr-home">
   <div class="hero">
-    <div class="label" id="w-label">Welcome to Smriti</div>
-    <h2 id="w-h2">हर चैप्टर, एक Picture में</h2>
-    <p id="w-p">NCERT Class 6-12 की सभी books — Visual Memory Cards, Mnemonic और Spaced Repetition के साथ। पूरा chapter एक picture में याद होगा।</p>
+    <div class="label" id="w-label">WELCOME TO SMRITI</div>
+    <h2 id="w-h2">UPSC & सभी परीक्षाओं की तैयारी</h2>
+    <p id="w-p">Current Affairs (PIB, CMO), Previous Year Papers (UPSC, State PSC, SSC), NCERT Books, History & Heritage — सब एक ही जगह, 100% Offline।</p>
     <div class="hero-actions">
       <button class="hero-btn gold" onclick="installApp()" id="install-top-btn" style="display:none;">
         <i class="fas fa-download"></i> <span id="install-top-text">Install App</span>
@@ -371,85 +323,51 @@ a{color:inherit;text-decoration:none;}
         <i class="fas fa-share-alt"></i> <span id="share-top-text">Share</span>
       </button>
     </div>
-    <div class="stats-row">
-      <div class="stat-mini"><div class="v" id="w-stat-cls">7</div><div class="l">Classes</div></div>
-      <div class="stat-mini"><div class="v" id="w-stat-books">42</div><div class="l">Books</div></div>
-      <div class="stat-mini"><div class="v" id="w-stat-chap">0</div><div class="l">Your Chapters</div></div>
-    </div>
   </div>
 
   <div class="sec-head">
-    <h3><i class="fas fa-graduation-cap"></i> <span id="h-class">क्लास चुनें</span></h3>
+    <h3><i class="fas fa-compass"></i> <span id="h-sections">Explore</span></h3>
   </div>
-  <div class="class-row" id="class-row"></div>
+  <div class="cat-grid" id="cat-grid"></div>
 
-  <div class="sec-head">
-    <h3><i class="fas fa-book"></i> <span id="h-books">NCERT Books</span></h3>
-    <span class="small-link" id="book-count-label">0 books</span>
-  </div>
-  <div class="book-grid" id="book-grid"></div>
-
-  <div class="sec-head">
-    <h3><i class="fas fa-file-alt"></i> <span id="h-pyq">Previous Year Papers</span></h3>
-    <span class="small-link gold" onclick="openPYQHub()"><i class="fas fa-external-link-alt"></i> All Boards</span>
-  </div>
-  <div id="pyq-preview"></div>
-
-  <div class="sec-head">
-    <h3><i class="fas fa-clock"></i> <span id="h-rev">आज का Revision</span></h3>
-  </div>
-  <div id="due-list"></div>
-
-  <div class="footer" style="text-align:center;padding:32px 16px 14px;font-size:.7rem;color:var(--ink-4);font-weight:700;letter-spacing:.5px;">
-    Made with <i class="fas fa-heart" style="color:#DC2626;"></i> in India · <span id="f-txt">स्मृति · 100% Offline · बिल्कुल फ्री</span>
+  <div class="footer">
+    Made with <i class="fas fa-heart"></i> in India · <span id="f-txt">स्मृति · 100% Offline · बिल्कुल फ्री</span>
   </div>
 </div>
 
-<!-- CHAPTERS -->
-<div class="screen" id="scr-chapters">
+<!-- GENERIC LIST SCREEN -->
+<div class="screen" id="scr-list">
   <div class="sec-head">
-    <h3><i class="fas fa-list-ol"></i> <span id="chap-head-title">Chapters</span></h3>
-    <button class="small-link" onclick="openAddChapter()" style="background:var(--purple-4);color:#fff;border-color:var(--purple-4);"><i class="fas fa-plus"></i> Add</button>
+    <h3><i class="fas fa-list" id="list-icon"></i> <span id="list-title">List</span></h3>
+    <button class="small-link" onclick="goHome()"><i class="fas fa-arrow-left"></i></button>
   </div>
-  <div style="margin-bottom:12px;">
-    <button class="btn sec full" onclick="goHome()" style="padding:12px;font-size:.82rem;"><i class="fas fa-arrow-left"></i> <span id="back-lib">Library</span></button>
-  </div>
-  <div id="chap-list"></div>
+  <p style="font-size:.82rem;color:var(--ink-3);line-height:1.6;margin-bottom:18px;font-weight:600;" id="list-desc">Official sources</p>
+  <div id="list-content"></div>
 </div>
 
-<!-- BUILDER -->
+<!-- BUILDER (Memory Cards) -->
 <div class="screen" id="scr-builder">
-  <div class="builder-head">
-    <h3 id="b-title">Chapter Title</h3>
-    <p id="b-sub">Memory Cards जोड़ें — पूरा text bold दिखेगा।</p>
+  <div class="sec-head">
+    <h3><i class="fas fa-brain"></i> <span id="b-title">Chapter</span></h3>
+    <button class="small-link" onclick="goHome()"><i class="fas fa-arrow-left"></i></button>
   </div>
-
+  <div class="builder-head">
+    <h3>Memory Cards बनाओ</h3>
+    <p>हर point को Visual Memory Card में बदलो — पूरा text bold दिखेगा, formula highlight होगा।</p>
+  </div>
   <div class="point-input no-print">
-    <input type="text" id="point-inp" placeholder="Key point लिखें (जैसे: a = bq + r)" onkeydown="if(event.key==='Enter')addPoint()">
+    <input type="text" id="point-inp" placeholder="Key point लिखें..." onkeydown="if(event.key==='Enter')addPoint()">
     <button class="point-add-btn" onclick="addPoint()"><i class="fas fa-plus"></i></button>
   </div>
-
-  <div class="sec-head">
-    <h3><i class="fas fa-brain"></i> <span id="h-mem">Visual Memory Cards</span></h3>
-  </div>
   <div class="memory-list" id="point-list"></div>
-
-  <div class="sec-head">
-    <h3><i class="fas fa-lightbulb"></i> <span id="h-mn">Memory Trick</span></h3>
-  </div>
   <div class="mnemonic-card">
-    <h4><i class="fas fa-magic"></i> <span id="mn-label">Auto Mnemonic</span></h4>
+    <h4><i class="fas fa-magic"></i> Auto Mnemonic</h4>
     <div class="mn-text" id="mn-text">Points जोड़ें — mnemonic अपने आप बनेगी</div>
     <div class="mn-sub" id="mn-sub"></div>
   </div>
-
   <div class="btn-row">
-    <button class="btn gold" onclick="saveChapter()"><i class="fas fa-save"></i> <span id="btn-save">Save</span></button>
-    <button class="btn green" onclick="startFlashcards()"><i class="fas fa-bolt"></i> <span id="btn-test">Test Me</span></button>
-  </div>
-  <div class="btn-row">
-    <button class="btn sec" onclick="goToChapters()"><i class="fas fa-arrow-left"></i> <span id="btn-back">Back</span></button>
-    <button class="btn gray" onclick="deleteChapter()"><i class="fas fa-trash"></i> <span id="btn-del">Delete</span></button>
+    <button class="btn gold" onclick="saveChapter()"><i class="fas fa-save"></i> Save</button>
+    <button class="btn green" onclick="startFlashcards()"><i class="fas fa-bolt"></i> Test Me</button>
   </div>
 </div>
 
@@ -465,19 +383,9 @@ a{color:inherit;text-decoration:none;}
     <div class="fc-hint-tap" id="fc-hint">TAP TO REVEAL</div>
   </div>
   <div class="btn-row">
-    <button class="btn sec" onclick="quitFlash()"><i class="fas fa-times"></i> <span id="btn-stop">Stop</span></button>
-    <button class="btn pri" onclick="nextCard()"><i class="fas fa-arrow-right"></i> <span id="btn-next">Next</span></button>
+    <button class="btn sec" onclick="quitFlash()"><i class="fas fa-times"></i> Stop</button>
+    <button class="btn pri" onclick="nextCard()"><i class="fas fa-arrow-right"></i> Next</button>
   </div>
-</div>
-
-<!-- PYQ HUB -->
-<div class="screen" id="scr-pyq">
-  <div class="sec-head">
-    <h3><i class="fas fa-file-alt"></i> <span id="h-pyq-full">Previous Year Papers Hub</span></h3>
-    <button class="small-link" onclick="goHome()"><i class="fas fa-arrow-left"></i></button>
-  </div>
-  <p style="font-size:.82rem;color:var(--ink-3);line-height:1.6;margin-bottom:18px;font-weight:600;" id="pyq-desc">हर राज्य के official education board की website — जहाँ से आप Previous Year Question Papers PDF download कर सकते हैं।</p>
-  <div id="pyq-list"></div>
 </div>
 
 </div>
@@ -494,22 +402,7 @@ a{color:inherit;text-decoration:none;}
   </div>
 </div>
 
-<!-- ADD CHAPTER -->
-<div class="modal" id="add-chap-modal">
-  <div class="modal-inner">
-    <div class="modal-head">
-      <h3 id="ac-title">नया Chapter जोड़ें</h3>
-      <button class="close-btn" onclick="closeAddChapter()"><i class="fas fa-times"></i></button>
-    </div>
-    <div class="field">
-      <label id="ac-lbl">Chapter Name</label>
-      <input type="text" id="new-chap-name" class="inp" placeholder="वास्तविक संख्याएँ / Real Numbers">
-    </div>
-    <button class="btn pri full" onclick="createChapter()"><i class="fas fa-plus"></i> <span id="ac-btn">Create Chapter</span></button>
-  </div>
-</div>
-
-<!-- SHARE -->
+<!-- SHARE MODAL -->
 <div class="modal" id="share-modal">
   <div class="modal-inner">
     <div class="modal-head">
@@ -537,14 +430,10 @@ a{color:inherit;text-decoration:none;}
     <button onclick="copyLink()" class="btn sec full">
       <i class="fas fa-link"></i> <span id="sh-copy">Copy Link</span>
     </button>
-    <div style="margin-top:20px;padding:16px;background:var(--bg-2);border-radius:14px;border:1.5px dashed var(--line-2);text-align:center;">
-      <div style="font-size:.66rem;color:var(--ink-4);font-weight:900;margin-bottom:6px;letter-spacing:1.5px;">SHARE LINK</div>
-      <div style="font-size:.78rem;color:var(--purple-4);font-weight:800;word-break:break-all;">https://summitkummar.github.io/smriti/</div>
-    </div>
   </div>
 </div>
 
-<!-- ABOUT -->
+<!-- ABOUT MODAL -->
 <div class="modal" id="about-modal">
   <div class="modal-inner">
     <div class="modal-head">
@@ -555,7 +444,7 @@ a{color:inherit;text-decoration:none;}
       <div class="about-avatar">SK</div>
       <div class="about-name">Summit Kummar</div>
       <div class="about-role">Developer & Creator</div>
-      <p class="about-bio">"हर भारतीय student के पास photographic memory हो सकती है — अगर chapter सही तरीके से समझाया जाए। स्मृति वो कोशिश है।"</p>
+      <p class="about-bio">"हर भारतीय student के पास exam की तैयारी के लिए सही resources हो सकते हैं — अगर वो एक जगह मिल जाएँ। स्मृति वो कोशिश है।"</p>
       <div class="social-row">
         <a href="https://www.facebook.com/share/1EvemNMEzf/" target="_blank" rel="noopener" class="social-btn fb">
           <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
@@ -568,8 +457,8 @@ a{color:inherit;text-decoration:none;}
     </div>
     <div style="border-top:1.5px solid var(--line);margin:24px 0;"></div>
     <div style="text-align:center;padding:8px 0;">
-      <div style="font-size:1.05rem;font-weight:900;color:var(--ink);font-family:'Playfair Display',serif;">स्मृति · Version 3.0</div>
-      <div style="font-size:.72rem;color:var(--ink-4);font-weight:700;margin-top:6px;">NCERT Memory Studio</div>
+      <div style="font-size:1.05rem;font-weight:900;color:var(--ink);font-family:'Playfair Display',serif;">स्मृति · Version 4.0</div>
+      <div style="font-size:.72rem;color:var(--ink-4);font-weight:700;margin-top:6px;">Exam Prep Hub</div>
       <p style="font-size:.78rem;color:var(--ink-3);line-height:1.7;margin-top:16px;font-weight:600;">100% Offline · बिल्कुल फ्री · कोई Ads नहीं · कोई Login नहीं · तुम्हारा Data तुम्हारे फोन में ही रहता है।</p>
     </div>
     <button class="btn gold full" style="margin-top:22px;" onclick="closeAbout()">बंद करें</button>
@@ -608,172 +497,122 @@ const LANGS = [
 
 let LANG = localStorage.getItem('smriti_lang') || 'hi';
 
-const T = {
-  hi:{appTitle:'स्मृति',appSub:'NCERT MEMORY STUDIO',welcomeLabel:'स्मृति में आपका स्वागत',welcomeH:'हर चैप्टर, एक Picture में',welcomeP:'NCERT Class 6-12 की सभी books — Visual Memory Cards, Mnemonic और Spaced Repetition के साथ। पूरा chapter एक picture में याद होगा।',classPick:'क्लास चुनें',books:'NCERT Books',revision:'आज का Revision',installApp:'Install App',share:'Share',library:'Library',memoryCards:'Visual Memory Cards',memoryTrick:'Memory Trick',autoMnemo:'Auto Mnemonic',save:'Save',testMe:'Test Me',back:'Back',del:'Delete',stop:'Stop',next:'Next',tapReveal:'TAP TO REVEAL',card:'CARD',newChap:'नया Chapter जोड़ें',chapName:'Chapter Name',createChap:'Create Chapter',inputPlaceholder:'Key point लिखें (जैसे: a = bq + r)',mnemonicEmpty:'Points जोड़ें — mnemonic अपने आप बनेगी',saveMsg:'Saved! Next revision schedule हो गया',deleteConfirm:'Delete this chapter permanently?',deleted:'Deleted',chapCreated:'Chapter बन गया!',enterName:'कुछ लिखें',shareTitle:'स्मृति Share करें',shareDesc:'इस ऐप को अपने दोस्तों के साथ share करें — हर student को ज़रूरत है।',moreOptions:'More Options',copyLink:'Copy Link',aboutTitle:'स्मृति के बारे में',footerTxt:'स्मृति · 100% Offline · बिल्कुल फ्री',installBannerH:'स्मृति Install करें',installBannerP:'फोन में ऐप की तरह चलेगा — बिना internet',points:'points',chapters:'chapters',booksCount:'books',nothingDue:'आज कुछ revise करना नहीं है',nothingDueDesc:'नया chapter बनाओ या कल वापस आओ।',noChaps:'अभी कोई chapter नहीं',noChapsDesc:'"Add" button दबाकर अपना पहला chapter बनाओ।',reviseToday:'REVISE TODAY',revised:'✓ Revised',pyqTitle:'Previous Year Papers Hub',pyqDesc:'हर राज्य के official education board की website — जहाँ से आप Previous Year Question Papers PDF download कर सकते हैं।',langTitle:'भाषा चुनें',langClose:'हो गया',searchPlaceholder:'Chapter खोजें...'},
-  en:{appTitle:'Smriti',appSub:'NCERT MEMORY STUDIO',welcomeLabel:'WELCOME TO SMRITI',welcomeH:'Every Chapter, One Picture',welcomeP:'All NCERT books for Class 6-12 — with Visual Memory Cards, Mnemonics and Spaced Repetition. Whole chapter remembered in one picture.',classPick:'Choose Class',books:'NCERT Books',revision:'Today\'s Revision',installApp:'Install App',share:'Share',library:'Library',memoryCards:'Visual Memory Cards',memoryTrick:'Memory Trick',autoMnemo:'Auto Mnemonic',save:'Save',testMe:'Test Me',back:'Back',del:'Delete',stop:'Stop',next:'Next',tapReveal:'TAP TO REVEAL',card:'CARD',newChap:'Add New Chapter',chapName:'Chapter Name',createChap:'Create Chapter',inputPlaceholder:'Enter key point (e.g.: a = bq + r)',mnemonicEmpty:'Add points — mnemonic will be auto-generated',saveMsg:'Saved! Next revision scheduled',deleteConfirm:'Delete this chapter permanently?',deleted:'Deleted',chapCreated:'Chapter created!',enterName:'Please enter something',shareTitle:'Share Smriti',shareDesc:'Share this app with your friends — every student needs it.',moreOptions:'More Options',copyLink:'Copy Link',aboutTitle:'About Smriti',footerTxt:'Smriti · 100% Offline · Free Forever',installBannerH:'Install Smriti',installBannerP:'Works like a real app — no internet needed',points:'points',chapters:'chapters',booksCount:'books',nothingDue:'Nothing to revise today',nothingDueDesc:'Create a new chapter or come back tomorrow.',noChaps:'No chapters yet',noChapsDesc:'Tap "Add" button to create your first chapter.',reviseToday:'REVISE TODAY',revised:'✓ Revised',pyqTitle:'Previous Year Papers Hub',pyqDesc:'Official education board websites of every state — download Previous Year Question Papers PDF.',langTitle:'Choose Language',langClose:'Done',searchPlaceholder:'Search chapters...'}
-};
-
-function T_(){ return T[LANG] || T.en; }
-
-/* ================= NCERT BOOKS (All Classes 6-12) ================= */
-const NCERT_BOOKS = {
-  6:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'Ganita Prakash',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'science',name:{hi:'विज्ञान',en:'Science'},sub:'Curiosity',emoji:'🔬',c1:'#059669',c2:'#10B981'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Poorvi',emoji:'📖',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Malhar',emoji:'🪔',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'sst',name:{hi:'सा. विज्ञान',en:'SST'},sub:'Exploring Society',emoji:'🌍',c1:'#0891B2',c2:'#06B6D4'},
-    {id:'sanskrit',name:{hi:'संस्कृत',en:'Sanskrit'},sub:'Deepakam',emoji:'📜',c1:'#B45309',c2:'#F59E0B'}
-  ],
-  7:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'Ganita Prakash',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'science',name:{hi:'विज्ञान',en:'Science'},sub:'Curiosity',emoji:'🔬',c1:'#059669',c2:'#10B981'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Poorvi',emoji:'📖',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Malhar',emoji:'🪔',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'sst',name:{hi:'सा. विज्ञान',en:'SST'},sub:'Exploring Society',emoji:'🌍',c1:'#0891B2',c2:'#06B6D4'},
-    {id:'sanskrit',name:{hi:'संस्कृत',en:'Sanskrit'},sub:'Deepakam',emoji:'📜',c1:'#B45309',c2:'#F59E0B'}
-  ],
-  8:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'NCERT',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'science',name:{hi:'विज्ञान',en:'Science'},sub:'NCERT',emoji:'🔬',c1:'#059669',c2:'#10B981'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Honeydew',emoji:'📖',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Vasant',emoji:'🪔',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'sst',name:{hi:'सा. विज्ञान',en:'SST'},sub:'Our Pasts III',emoji:'🌍',c1:'#0891B2',c2:'#06B6D4'},
-    {id:'sanskrit',name:{hi:'संस्कृत',en:'Sanskrit'},sub:'Ruchira',emoji:'📜',c1:'#B45309',c2:'#F59E0B'}
-  ],
-  9:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'NCERT',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'science',name:{hi:'विज्ञान',en:'Science'},sub:'NCERT',emoji:'🔬',c1:'#059669',c2:'#10B981'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Beehive',emoji:'📖',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Kshitij',emoji:'🪔',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'sst',name:{hi:'सा. विज्ञान',en:'SST'},sub:'History, Geo, Eco, Pol',emoji:'🌍',c1:'#0891B2',c2:'#06B6D4'},
-    {id:'sanskrit',name:{hi:'संस्कृत',en:'Sanskrit'},sub:'Shemushi',emoji:'📜',c1:'#B45309',c2:'#F59E0B'}
-  ],
-  10:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'NCERT',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'science',name:{hi:'विज्ञान',en:'Science'},sub:'NCERT',emoji:'🔬',c1:'#059669',c2:'#10B981'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'First Flight',emoji:'📖',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Kshitij 2',emoji:'🪔',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'sst',name:{hi:'सा. विज्ञान',en:'SST'},sub:'India & World',emoji:'🌍',c1:'#0891B2',c2:'#06B6D4'},
-    {id:'sanskrit',name:{hi:'संस्कृत',en:'Sanskrit'},sub:'Shemushi 2',emoji:'📜',c1:'#B45309',c2:'#F59E0B'}
-  ],
-  11:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'NCERT Part 1 & 2',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'physics',name:{hi:'भौतिकी',en:'Physics'},sub:'Part 1 & 2',emoji:'⚛️',c1:'#1E40AF',c2:'#3B82F6'},
-    {id:'chemistry',name:{hi:'रसायन',en:'Chemistry'},sub:'Part 1 & 2',emoji:'🧪',c1:'#059669',c2:'#10B981'},
-    {id:'biology',name:{hi:'जीव विज्ञान',en:'Biology'},sub:'NCERT',emoji:'🧬',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Hornbill / Snapshots',emoji:'📖',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Aaroh / Vitan',emoji:'🪔',c1:'#0891B2',c2:'#06B6D4'}
-  ],
-  12:[
-    {id:'maths',name:{hi:'गणित',en:'Maths'},sub:'Part 1 & 2',emoji:'🔢',c1:'#6D28D9',c2:'#F59E0B'},
-    {id:'physics',name:{hi:'भौतिकी',en:'Physics'},sub:'Part 1 & 2',emoji:'⚛️',c1:'#1E40AF',c2:'#3B82F6'},
-    {id:'chemistry',name:{hi:'रसायन',en:'Chemistry'},sub:'Part 1 & 2',emoji:'🧪',c1:'#059669',c2:'#10B981'},
-    {id:'biology',name:{hi:'जीव विज्ञान',en:'Biology'},sub:'NCERT',emoji:'🧬',c1:'#DC2626',c2:'#F59E0B'},
-    {id:'english',name:{hi:'अंग्रेज़ी',en:'English'},sub:'Flamingo / Vistas',emoji:'📖',c1:'#7C3AED',c2:'#EC4899'},
-    {id:'hindi',name:{hi:'हिंदी',en:'Hindi'},sub:'Aaroh / Vitan',emoji:'🪔',c1:'#0891B2',c2:'#06B6D4'}
-  ]
-};
-
-/* ================= NCERT OFFICIAL LINKS ================= */
-const NCERT_TEXTBOOKS_URL = 'https://ncert.nic.in/textbook.php';
-const NCERT_EPATHSHALA_URL = 'https://epathshala.nic.in/';
-
-/* ================= STATE BOARDS (PYQ) ================= */
-const STATE_BOARDS = [
-  {state:{hi:'हरियाणा',en:'Haryana'},board:'BSEH',url:'https://bseh.org.in/',emoji:'🏛️'},
-  {state:{hi:'उत्तर प्रदेश',en:'Uttar Pradesh'},board:'UPMSP',url:'https://upmsp.edu.in/',emoji:'📜'},
-  {state:{hi:'महाराष्ट्र',en:'Maharashtra'},board:'MSBSHSE',url:'https://mahahsscboard.in/',emoji:'🎯'},
-  {state:{hi:'तमिलनाडु',en:'Tamil Nadu'},board:'TNBSE',url:'https://dge.tn.gov.in/',emoji:'📖'},
-  {state:{hi:'कर्नाटक',en:'Karnataka'},board:'KSEAB',url:'https://kseab.karnataka.gov.in/',emoji:'🌾'},
-  {state:{hi:'पश्चिम बंगाल',en:'West Bengal'},board:'WBBSE',url:'https://wbbse.wb.gov.in/',emoji:'🎨'},
-  {state:{hi:'राजस्थान',en:'Rajasthan'},board:'RBSE',url:'https://rajeduboard.rajasthan.gov.in/',emoji:'🏰'},
-  {state:{hi:'गुजरात',en:'Gujarat'},board:'GSEB',url:'https://gseb.org/',emoji:'🦁'},
-  {state:{hi:'केरल',en:'Kerala'},board:'DHSE',url:'https://dhsekerala.gov.in/',emoji:'🌴'},
-  {state:{hi:'पंजाब',en:'Punjab'},board:'PSEB',url:'https://pseb.ac.in/',emoji:'🌾'},
-  {state:{hi:'ओडिशा',en:'Odisha'},board:'BSE',url:'https://bseodisha.ac.in/',emoji:'🛕'},
-  {state:{hi:'असम',en:'Assam'},board:'SEBA',url:'https://sebaonline.org/',emoji:'🍃'},
-  {state:{hi:'झारखंड',en:'Jharkhand'},board:'JAC',url:'https://jac.jharkhand.gov.in/',emoji:'⛰️'},
-  {state:{hi:'छत्तीसगढ़',en:'Chhattisgarh'},board:'CGBSE',url:'https://cgbse.nic.in/',emoji:'🌳'},
-  {state:{hi:'मध्य प्रदेश',en:'Madhya Pradesh'},board:'MPBSE',url:'https://mpbse.nic.in/',emoji:'🦌'},
-  {state:{hi:'बिहार',en:'Bihar'},board:'BSEB',url:'https://biharboardonline.com/',emoji:'🏛️'},
-  {state:{hi:'आंध्र प्रदेश',en:'Andhra Pradesh'},board:'BSEAP',url:'https://bse.ap.gov.in/',emoji:'🌊'},
-  {state:{hi:'तेलंगाना',en:'Telangana'},board:'TSBIE',url:'https://tsbie.cgg.gov.in/',emoji:'💎'},
-  {state:{hi:'हिमाचल प्रदेश',en:'Himachal Pradesh'},board:'HPBOSE',url:'https://hpbose.org/',emoji:'🏔️'},
-  {state:{hi:'उत्तराखंड',en:'Uttarakhand'},board:'UBSE',url:'https://ubse.uk.gov.in/',emoji:'🌲'},
-  {state:{hi:'दिल्ली',en:'Delhi'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏛️'},
-  {state:{hi:'जम्मू-कश्मीर',en:'J&K'},board:'JKBOSE',url:'https://jkbose.nic.in/',emoji:'🏔️'},
-  {state:{hi:'गोवा',en:'Goa'},board:'GBSHSE',url:'https://gbshse.gov.in/',emoji:'🏖️'},
-  {state:{hi:'त्रिपुरा',en:'Tripura'},board:'TBSE',url:'https://tbse.tripura.gov.in/',emoji:'🌴'},
-  {state:{hi:'मणिपुर',en:'Manipur'},board:'BSEM',url:'https://bsem.nic.in/',emoji:'💐'},
-  {state:{hi:'मेघालय',en:'Meghalaya'},board:'MBOSE',url:'https://mbose.in/',emoji:'☁️'},
-  {state:{hi:'नागालैंड',en:'Nagaland'},board:'NBSE',url:'https://nbsenl.edu.in/',emoji:'⛰️'},
-  {state:{hi:'मिजोरम',en:'Mizoram'},board:'MBSE',url:'https://mbse.edu.in/',emoji:'🌄'},
-  {state:{hi:'अरुणाचल',en:'Arunachal'},board:'APBSE',url:'https://apbse.in/',emoji:'🏔️'},
-  {state:{hi:'सिक्किम',en:'Sikkim'},board:'SBSE',url:'https://sbse.nic.in/',emoji:'🌺'},
-  {state:{hi:'पुडुचेरी',en:'Puducherry'},board:'PSE',url:'https://py.gov.in/',emoji:'🏖️'},
-  {state:{hi:'चंडीगढ़',en:'Chandigarh'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏛️'},
-  {state:{hi:'अंडमान',en:'Andaman'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏝️'},
-  {state:{hi:'दादरा नगर हवेली',en:'DNH'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏛️'},
-  {state:{hi:'लद्दाख',en:'Ladakh'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏔️'},
-  {state:{hi:'लक्षद्वीप',en:'Lakshadweep'},board:'CBSE',url:'https://cbse.gov.in/',emoji:'🏝️'}
+/* ================= SECTION DATA ================= */
+const SECTIONS = [
+  {
+    id:'current',
+    icon:'fa-newspaper',
+    c1:'#DC2626', c2:'#F59E0B',
+    name:{hi:'Current Affairs', en:'Current Affairs'},
+    desc:{hi:'PIB, CMO websites — रोज़ के सरकारी अपडेट', en:'PIB, CMO websites — daily government updates'},
+    data:[
+      {name:{hi:'PIB — Press Information Bureau', en:'PIB — Press Information Bureau'}, desc:{hi:'भारत सरकार का official press release portal', en:'Official press release portal of Govt of India'}, url:'https://pib.gov.in/', icon:'fa-newspaper'},
+      {name:{hi:'PIB Archive (1947-अब तक)', en:'PIB Archive (1947-present)'}, desc:{hi:'पुराने सारे press releases एक जगह', en:'All old press releases in one place'}, url:'https://archive.pib.gov.in/', icon:'fa-archive'},
+      {name:{hi:'PIB — All Releases', en:'PIB — All Releases'}, desc:{hi:'हर मंत्रालय के ताज़ा releases', en:'Latest releases from every ministry'}, url:'https://pib.gov.in/Allrel.aspx', icon:'fa-bullhorn'},
+      {name:{hi:'New India Samachar', en:'New India Samachar'}, desc:{hi:'सरकार की monthly magazine', en:'Government monthly magazine'}, url:'https://newindiasamachar.pib.gov.in/', icon:'fa-book-open'}
+    ]
+  },
+  {
+    id:'pyq',
+    icon:'fa-file-alt',
+    c1:'#6D28D9', c2:'#8B5CF6',
+    name:{hi:'Previous Year Papers', en:'Previous Year Papers'},
+    desc:{hi:'UPSC, State PSC, SSC, CBSE — सभी के official links', en:'UPSC, State PSC, SSC, CBSE — all official links'},
+    data:[
+      {name:{hi:'UPSC — Official Website', en:'UPSC — Official Website'}, desc:{hi:'Civil Services, CDS, NDA के सारे papers', en:'Civil Services, CDS, NDA papers'}, url:'https://upsc.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'SSC — Official Website', en:'SSC — Official Website'}, desc:{hi:'CGL, CHSL, MTS, GD के previous papers', en:'CGL, CHSL, MTS, GD previous papers'}, url:'https://ssc.nic.in/', icon:'fa-id-card'},
+      {name:{hi:'CBSE — Question Papers', en:'CBSE — Question Papers'}, desc:{hi:'Class 10, 12 के board papers', en:'Class 10, 12 board papers'}, url:'https://cbseacademic.nic.in/', icon:'fa-graduation-cap'},
+      {name:{hi:'CBSE — Sample Papers', en:'CBSE — Sample Papers'}, desc:{hi:'Marking scheme के साथ sample papers', en:'Sample papers with marking scheme'}, url:'https://www.cbse.gov.in/cbsenew/question-paper.html', icon:'fa-file-signature'},
+      {name:{hi:'NTA — Official Website', en:'NTA — Official Website'}, desc:{hi:'JEE, NEET, UGC-NET के papers', en:'JEE, NEET, UGC-NET papers'}, url:'https://nta.ac.in/', icon:'fa-laptop-code'},
+      {name:{hi:'India.gov.in — Exams Portal', en:'India.gov.in — Exams Portal'}, desc:{hi:'सभी सरकारी exams की जानकारी', en:'Information on all government exams'}, url:'https://www.india.gov.in/', icon:'fa-globe'}
+    ]
+  },
+  {
+    id:'stateboard',
+    icon:'fa-university',
+    c1:'#059669', c2:'#10B981',
+    name:{hi:'State Boards & PSC', en:'State Boards & PSC'},
+    desc:{hi:'36 राज्यों के boards और Public Service Commissions', en:'36 states\' boards and PSCs'},
+    data:[
+      {name:{hi:'हरियाणा', en:'Haryana'}, desc:{hi:'BSEH · HPSC', en:'BSEH · HPSC'}, url:'https://bseh.org.in/', icon:'fa-landmark'},
+      {name:{hi:'उत्तर प्रदेश', en:'Uttar Pradesh'}, desc:{hi:'UPMSP · UPPSC', en:'UPMSP · UPPSC'}, url:'https://upmsp.edu.in/', icon:'fa-landmark'},
+      {name:{hi:'महाराष्ट्र', en:'Maharashtra'}, desc:{hi:'MSBSHSE · MPSC', en:'MSBSHSE · MPSC'}, url:'https://mahahsscboard.in/', icon:'fa-landmark'},
+      {name:{hi:'तमिलनाडु', en:'Tamil Nadu'}, desc:{hi:'TNBSE · TNPSC', en:'TNBSE · TNPSC'}, url:'https://dge.tn.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'कर्नाटक', en:'Karnataka'}, desc:{hi:'KSEAB · KPSC', en:'KSEAB · KPSC'}, url:'https://kseab.karnataka.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'पश्चिम बंगाल', en:'West Bengal'}, desc:{hi:'WBBSE · WBPSC', en:'WBBSE · WBPSC'}, url:'https://wbbse.wb.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'राजस्थान', en:'Rajasthan'}, desc:{hi:'RBSE · RPSC', en:'RBSE · RPSC'}, url:'https://rajeduboard.rajasthan.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'गुजरात', en:'Gujarat'}, desc:{hi:'GSEB · GPSC', en:'GSEB · GPSC'}, url:'https://gseb.org/', icon:'fa-landmark'},
+      {name:{hi:'केरल', en:'Kerala'}, desc:{hi:'DHSE · KPSC', en:'DHSE · KPSC'}, url:'https://dhsekerala.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'पंजाब', en:'Punjab'}, desc:{hi:'PSEB · PPSC', en:'PSEB · PPSC'}, url:'https://pseb.ac.in/', icon:'fa-landmark'},
+      {name:{hi:'ओडिशा', en:'Odisha'}, desc:{hi:'BSE · OPSC', en:'BSE · OPSC'}, url:'https://bseodisha.ac.in/', icon:'fa-landmark'},
+      {name:{hi:'असम', en:'Assam'}, desc:{hi:'SEBA · APSC', en:'SEBA · APSC'}, url:'https://sebaonline.org/', icon:'fa-landmark'},
+      {name:{hi:'झारखंड', en:'Jharkhand'}, desc:{hi:'JAC · JPSC', en:'JAC · JPSC'}, url:'https://jac.jharkhand.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'छत्तीसगढ़', en:'Chhattisgarh'}, desc:{hi:'CGBSE · CGPSC', en:'CGBSE · CGPSC'}, url:'https://cgbse.nic.in/', icon:'fa-landmark'},
+      {name:{hi:'मध्य प्रदेश', en:'Madhya Pradesh'}, desc:{hi:'MPBSE · MPPSC', en:'MPBSE · MPPSC'}, url:'https://mpbse.nic.in/', icon:'fa-landmark'},
+      {name:{hi:'बिहार', en:'Bihar'}, desc:{hi:'BSEB · BPSC', en:'BSEB · BPSC'}, url:'https://biharboardonline.com/', icon:'fa-landmark'},
+      {name:{hi:'आंध्र प्रदेश', en:'Andhra Pradesh'}, desc:{hi:'BSEAP · APPSC', en:'BSEAP · APPSC'}, url:'https://bse.ap.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'तेलंगाना', en:'Telangana'}, desc:{hi:'TSBIE · TSPSC', en:'TSBIE · TSPSC'}, url:'https://tsbie.cgg.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'हिमाचल प्रदेश', en:'Himachal Pradesh'}, desc:{hi:'HPBOSE · HPSC', en:'HPBOSE · HPSC'}, url:'https://hpbose.org/', icon:'fa-landmark'},
+      {name:{hi:'उत्तराखंड', en:'Uttarakhand'}, desc:{hi:'UBSE · UKPSC', en:'UBSE · UKPSC'}, url:'https://ubse.uk.gov.in/', icon:'fa-landmark'},
+      {name:{hi:'जम्मू-कश्मीर', en:'J&K'}, desc:{hi:'JKBOSE · JKPSC', en:'JKBOSE · JKPSC'}, url:'https://jkbose.nic.in/', icon:'fa-landmark'},
+      {name:{hi:'गोवा', en:'Goa'}, desc:{hi:'GBSHSE · GPSC', en:'GBSHSE · GPSC'}, url:'https://gbshse.gov.in/', icon:'fa-landmark'}
+    ]
+  },
+  {
+    id:'cmo',
+    icon:'fa-user-tie',
+    c1:'#7C3AED', c2:'#EC4899',
+    name:{hi:'CMO Websites', en:'CMO Websites'},
+    desc:{hi:'मुख्यमंत्री कार्यालय — राज्य की योजनाएँ', en:'Chief Minister\'s Office — state schemes'},
+    data:[
+      {name:{hi:'तेलंगाना CMO', en:'Telangana CMO'}, desc:{hi:'cm.telangana.gov.in', en:'cm.telangana.gov.in'}, url:'http://cm.telangana.gov.in/', icon:'fa-user-tie'},
+      {name:{hi:'गुजरात CMO', en:'Gujarat CMO'}, desc:{hi:'cmogujarat.gov.in', en:'cmogujarat.gov.in'}, url:'https://cmogujarat.gov.in/', icon:'fa-user-tie'},
+      {name:{hi:'केरल CMO', en:'Kerala CMO'}, desc:{hi:'cmo.kerala.gov.in', en:'cmo.kerala.gov.in'}, url:'https://www.cmo.kerala.gov.in/', icon:'fa-user-tie'},
+      {name:{hi:'पश्चिम बंगाल CMO', en:'West Bengal CMO'}, desc:{hi:'cmo.wb.gov.in', en:'cmo.wb.gov.in'}, url:'https://www.cmo.wb.gov.in/', icon:'fa-user-tie'},
+      {name:{hi:'नागालैंड CMO', en:'Nagaland CMO'}, desc:{hi:'नागालैंड सरकार', en:'Nagaland Government'}, url:'https://nagaland.gov.in/', icon:'fa-user-tie'},
+      {name:{hi:'India.gov.in — CM Directory', en:'India.gov.in — CM Directory'}, desc:{hi:'सभी राज्यों के CM', en:'CMs of all states'}, url:'https://www.india.gov.in/', icon:'fa-sitemap'}
+    ]
+  },
+  {
+    id:'history',
+    icon:'fa-landmark-flag',
+    c1:'#B45309', c2:'#F59E0B',
+    name:{hi:'History & Heritage', en:'History & Heritage'},
+    desc:{hi:'भारत का इतिहास, संस्कृति और धरोहर', en:'India\'s history, culture and heritage'},
+    data:[
+      {name:{hi:'Incredible India (Official)', en:'Incredible India (Official)'}, desc:{hi:'पर्यटन मंत्रालय का official portal', en:'Official portal of Ministry of Tourism'}, url:'https://www.incredibleindia.gov.in/', icon:'fa-globe-asia'},
+      {name:{hi:'Ministry of Tourism', en:'Ministry of Tourism'}, desc:{hi:'tourism.gov.in', en:'tourism.gov.in'}, url:'https://tourism.gov.in/', icon:'fa-plane'},
+      {name:{hi:'Nehru Heritage Portal', en:'Nehru Heritage Portal'}, desc:{hi:'नेहरू से जुड़ी धरोहर', en:'Heritage related to Nehru'}, url:'https://nehruheritage.org/', icon:'fa-monument'},
+      {name:{hi:'India the Land of Buddha', en:'India the Land of Buddha'}, desc:{hi:'बौद्ध धरोहर', en:'Buddhist heritage'}, url:'https://indiathelandofbuddha.in/', icon:'fa-dharmachakra'},
+      {name:{hi:'National Portal — Monuments', en:'National Portal — Monuments'}, desc:{hi:'171+ heritage monuments', en:'171+ heritage monuments'}, url:'https://www.india.gov.in/', icon:'fa-landmark'}
+    ]
+  },
+  {
+    id:'ncert',
+    icon:'fa-book',
+    c1:'#1E40AF', c2:'#3B82F6',
+    name:{hi:'NCERT Books', en:'NCERT Books'},
+    desc:{hi:'Class 6-12 की सभी books — Hindi & English', en:'Class 6-12 all books — Hindi & English'},
+    data:[
+      {name:{hi:'NCERT — Official Textbooks', en:'NCERT — Official Textbooks'}, desc:{hi:'सभी classes की PDF', en:'PDFs for all classes'}, url:'https://ncert.nic.in/textbook.php', icon:'fa-book'},
+      {name:{hi:'ePathshala (Official)', en:'ePathshala (Official)'}, desc:{hi:'Digital books platform', en:'Digital books platform'}, url:'https://epathshala.nic.in/', icon:'fa-tablet-alt'},
+      {name:{hi:'NCERT — Syllabus', en:'NCERT — Syllabus'}, desc:{hi:'सभी classes का syllabus', en:'Syllabus for all classes'}, url:'https://ncert.nic.in/syllabus.php', icon:'fa-list-alt'},
+      {name:{hi:'DIKSHA (Official)', en:'DIKSHA (Official)'}, desc:{hi:'सरकार का learning platform', en:'Government learning platform'}, url:'https://diksha.gov.in/', icon:'fa-chalkboard-teacher'}
+    ]
+  }
 ];
 
-/* ================= SAMPLE CHAPTERS ================= */
-const SAMPLE_CHAPTERS = {
-  'c10_maths':[
-    {id:'ch_10m1', name:{hi:'वास्तविक संख्याएँ',en:'Real Numbers'}, points:[
-      {id:1, key:{hi:'यूक्लिड विभाजन प्रमेयिका',en:'Euclid\'s Division Lemma'}, desc:{hi:'किन्हीं दो धनात्मक पूर्णांकों a और b के लिए, अद्वितीय पूर्णांक q और r मौजूद हैं जहाँ <code>a = bq + r</code> और <code>0 ≤ r &lt; b</code>।',en:'For any two positive integers a and b, there exist unique integers q and r such that <code>a = bq + r</code> and <code>0 ≤ r &lt; b</code>.'}},
-      {id:2, key:{hi:'अंकगणित की आधारभूत प्रमेय',en:'Fundamental Theorem of Arithmetic'}, desc:{hi:'हर composite number को prime factors के product के रूप में <b>unique</b> तरीके से लिखा जा सकता है।',en:'Every composite number can be expressed as a product of primes in a <b>unique</b> way.'}},
-      {id:3, key:{hi:'HCF और LCM का संबंध',en:'Relation between HCF & LCM'}, desc:{hi:'दो संख्याओं के लिए: <code>HCF × LCM = Product of numbers</code>।',en:'For two numbers: <code>HCF × LCM = Product of numbers</code>.'}},
-      {id:4, key:{hi:'अपरिमेय संख्याएँ',en:'Irrational Numbers'}, desc:{hi:'√2, √3, √5 जैसी संख्याएँ अपरिमेय होती हैं — इन्हें <code>p/q</code> form में नहीं लिखा जा सकता।',en:'Numbers like √2, √3, √5 are irrational — cannot be written in <code>p/q</code> form.'}}
-    ], lastRev:null, nextRev:new Date().toISOString().split('T')[0], streak:0},
-    {id:'ch_10m2', name:{hi:'बहुपद',en:'Polynomials'}, points:[
-      {id:1, key:{hi:'द्विघात बहुपद',en:'Quadratic Polynomial'}, desc:{hi:'सामान्य रूप: <code>ax² + bx + c</code> (जहाँ a ≠ 0)।',en:'Standard form: <code>ax² + bx + c</code> (where a ≠ 0).'}},
-      {id:2, key:{hi:'शून्यकों का योग',en:'Sum of Zeros'}, desc:{hi:'द्विघात बहुपद के शून्यकों का योग = <code>-b/a</code>।',en:'Sum of zeros = <code>-b/a</code>.'}},
-      {id:3, key:{hi:'शून्यकों का गुणनफल',en:'Product of Zeros'}, desc:{hi:'द्विघात बहुपद के शून्यकों का गुणनफल = <code>c/a</code>।',en:'Product of zeros = <code>c/a</code>.'}}
-    ], lastRev:null, nextRev:new Date().toISOString().split('T')[0], streak:0}
-  ],
-  'c10_science':[
-    {id:'ch_10s1', name:{hi:'रासायनिक अभिक्रियाएँ',en:'Chemical Reactions'}, points:[
-      {id:1, key:{hi:'रासायनिक अभिक्रिया',en:'Chemical Reaction'}, desc:{hi:'वह प्रक्रिया जिसमें मूल पदार्थ बदलकर <b>नए पदार्थ</b> बनाते हैं।',en:'A process in which original substances change to form <b>new substances</b>.'}},
-      {id:2, key:{hi:'संतुलित समीकरण',en:'Balanced Equation'}, desc:{hi:'दोनों तरफ हर तत्व के परमाणुओं की संख्या बराबर होनी चाहिए।',en:'Both sides must have equal atoms of each element.'}},
-      {id:3, key:{hi:'संयोजन अभिक्रिया',en:'Combination Reaction'}, desc:{hi:'<code>A + B → AB</code>',en:'<code>A + B → AB</code>'}},
-      {id:4, key:{hi:'वियोजन अभिक्रिया',en:'Decomposition Reaction'}, desc:{hi:'<code>AB → A + B</code>',en:'<code>AB → A + B</code>'}}
-    ], lastRev:null, nextRev:new Date().toISOString().split('T')[0], streak:0}
-  ]
-};
-
 /* ================= STATE ================= */
-let state = { cls:9, book:null, currentChapter:null, currentPoints:[], flashIdx:0 };
+let state = { currentSection:null, currentChapter:null, currentPoints:[], flashIdx:0 };
 let deferredPrompt = null;
 
 /* ================= STORAGE ================= */
-function loadAll(){ try{ return JSON.parse(localStorage.getItem('smriti_v4')||'{}'); }catch(e){ return {}; } }
-function saveAll(d){ localStorage.setItem('smriti_v4', JSON.stringify(d)); }
-function getChapters(cls, bookId){
-  const d = loadAll(); const key = `c${cls}_${bookId}`;
-  if(d[key]) return d[key];
-  if(SAMPLE_CHAPTERS[key]){ d[key] = JSON.parse(JSON.stringify(SAMPLE_CHAPTERS[key])); saveAll(d); return d[key]; }
-  return [];
-}
-function setChapters(cls, bookId, arr){
-  const d = loadAll(); d[`c${cls}_${bookId}`] = arr; saveAll(d);
-}
+function loadAll(){ try{ return JSON.parse(localStorage.getItem('smriti_v5')||'{}'); }catch(e){ return {}; } }
+function saveAll(d){ localStorage.setItem('smriti_v5', JSON.stringify(d)); }
 
 /* ================= UTIL ================= */
 function $(id){ return document.getElementById(id); }
 function esc(s){ return String(s||'').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
-function renderDesc(s){
-  s = String(s||'');
-  const parts = s.split(/(<code>.*?<\/code>|<b>.*?<\/b>|<i>.*?<\/i>)/g);
-  return parts.map(p => {
-    if(p.startsWith('<code>')) return '<code>' + esc(p.slice(6,-7)) + '</code>';
-    if(p.startsWith('<b>')) return '<b>' + esc(p.slice(3,-4)) + '</b>';
-    if(p.startsWith('<i>')) return '<i>' + esc(p.slice(3,-4)) + '</i>';
-    return esc(p);
-  }).join('');
-}
 function T_val(obj){ if(!obj) return ''; return typeof obj === 'object' ? (obj[LANG] || obj.hi || obj.en || '') : obj; }
 function toast(msg){
   const t = document.createElement('div');
@@ -787,7 +626,6 @@ function showScreen(id){
   $('scr-' + id).classList.add('on');
   window.scrollTo({top:0,behavior:'smooth'});
 }
-const CLASSES = [6,7,8,9,10,11,12];
 
 /* ================= THEME ================= */
 function toggleTheme(){
@@ -809,57 +647,10 @@ if(localStorage.getItem('smriti_theme') === 'dark'){
 }
 
 /* ================= LANGUAGE ================= */
-function applyLang(){
-  const t = T_();
-  $('h-title').innerText = t.appTitle;
-  $('h-sub').innerText = t.appSub;
-  $('w-label').innerText = t.welcomeLabel;
-  $('w-h2').innerText = t.welcomeH;
-  $('w-p').innerText = t.welcomeP;
-  $('install-top-text').innerText = t.installApp;
-  $('share-top-text').innerText = t.share;
-  $('h-class').innerText = t.classPick;
-  $('h-books').innerText = t.books;
-  $('h-rev').innerText = t.revision;
-  $('h-mem').innerText = t.memoryCards;
-  $('h-mn').innerText = t.memoryTrick;
-  $('mn-label').innerText = t.autoMnemo;
-  $('btn-save').innerText = t.save;
-  $('btn-test').innerText = t.testMe;
-  $('btn-back').innerText = t.back;
-  $('btn-del').innerText = t.del;
-  $('btn-stop').innerText = t.stop;
-  $('btn-next').innerText = t.next;
-  $('fc-hint').innerText = t.tapReveal;
-  $('back-lib').innerText = t.library;
-  $('ac-title').innerText = t.newChap;
-  $('ac-lbl').innerText = t.chapName;
-  $('ac-btn').innerText = t.createChap;
-  $('sh-title').innerText = t.shareTitle;
-  $('sh-desc').innerText = t.shareDesc;
-  $('sh-more').innerText = t.moreOptions;
-  $('sh-copy').innerText = t.copyLink;
-  $('ab-title').innerText = t.aboutTitle;
-  $('f-txt').innerText = t.footerTxt;
-  $('ib-h').innerText = t.installBannerH;
-  $('ib-p').innerText = t.installBannerP;
-  $('ib-btn').innerText = t.installApp;
-  $('lang-title').innerText = t.langTitle;
-  $('lang-close').innerText = t.langClose;
-  $('search-inp').placeholder = t.searchPlaceholder;
-  $('h-pyq').innerText = t.pyqTitle;
-  $('h-pyq-full').innerText = t.pyqTitle;
-  $('pyq-desc').innerText = t.pyqDesc;
-  renderHome();
-  if(state.currentChapter) renderBuilder();
-}
-
 function openLangModal(){ renderLangList(); $('lang-modal').classList.add('open'); }
 function closeLangModal(){ $('lang-modal').classList.remove('open'); }
-
 function renderLangList(){
-  const grid = $('lang-grid');
-  grid.innerHTML = LANGS.map(l => `
+  $('lang-grid').innerHTML = LANGS.map(l => `
     <button class="lang-card ${l.code===LANG?'on':''}" onclick="selectLang('${l.code}')">
       <div class="lang-flag">${l.flag}</div>
       <div><div class="lang-name">${l.name}</div><div class="lang-eng">${l.eng}</div></div>
@@ -872,362 +663,90 @@ function selectLang(code){
   applyLang();
   toast(LANG === 'hi' ? 'भाषा: हिन्दी' : 'Language: ' + LANGS.find(l=>l.code===code).eng);
 }
+function applyLang(){
+  const t = LANG === 'hi' ? {
+    title:'स्मृति', sub:'EXAM PREP HUB',
+    welcomeLabel:'स्मृति में आपका स्वागत',
+    welcomeH:'UPSC & सभी परीक्षाओं की तैयारी',
+    welcomeP:'Current Affairs (PIB, CMO), Previous Year Papers (UPSC, State PSC, SSC), NCERT Books, History & Heritage — सब एक ही जगह, 100% Offline।',
+    installApp:'Install App', share:'Share',
+    sections:'Explore', footer:'स्मृति · 100% Offline · बिल्कुल फ्री'
+  } : {
+    title:'Smriti', sub:'EXAM PREP HUB',
+    welcomeLabel:'WELCOME TO SMRITI',
+    welcomeH:'UPSC & All Exam Preparation',
+    welcomeP:'Current Affairs (PIB, CMO), Previous Year Papers (UPSC, State PSC, SSC), NCERT Books, History & Heritage — all in one place, 100% Offline.',
+    installApp:'Install App', share:'Share',
+    sections:'Explore', footer:'Smriti · 100% Offline · Free Forever'
+  };
+  $('h-title').innerText = t.title;
+  $('h-sub').innerText = t.sub;
+  $('w-label').innerText = t.welcomeLabel;
+  $('w-h2').innerText = t.welcomeH;
+  $('w-p').innerText = t.welcomeP;
+  $('install-top-text').innerText = t.installApp;
+  $('share-top-text').innerText = t.share;
+  $('h-sections').innerText = t.sections;
+  $('f-txt').innerText = t.footer;
+  renderHome();
+}
 
 /* ================= HOME ================= */
 function renderHome(){
-  const t = T_();
-  $('class-row').innerHTML = CLASSES.map(c => `
-    <button class="class-btn ${c===state.cls?'on':''}" onclick="pickClass(${c})">Class ${c}</button>
-  `).join('');
-
-  const books = NCERT_BOOKS[state.cls] || [];
-  $('book-count-label').innerText = books.length + ' ' + t.booksCount;
-  $('book-grid').innerHTML = books.map(b => {
-    const count = getChapters(state.cls, b.id).length;
-    return `<button class="book-card" style="--bc1:${b.c1};--bc2:${b.c2};" onclick="openBook('${b.id}')">
-      <div class="book-emoji">${b.emoji}</div>
-      <div class="book-name">${esc(b.name[LANG]||b.name.hi)}</div>
-      <div class="book-sub">${esc(b.sub)}</div>
-      <div class="book-count"><i class="fas fa-bookmark"></i> ${count} ${t.chapters}</div>
-    </button>`;
-  }).join('');
-
-  // PYQ Preview (top 3)
-  $('pyq-preview').innerHTML = STATE_BOARDS.slice(0, 3).map(b => `
-    <button class="pyq-card" onclick="openBoard('${b.url}')">
-      <div class="pyq-icon">${b.emoji}</div>
-      <div class="pyq-body">
-        <h4>${esc(b.state[LANG]||b.state.hi)} — ${b.board}</h4>
-        <p>Official board website</p>
+  $('cat-grid').innerHTML = SECTIONS.map(s => `
+    <button class="cat-card" style="--cc1:${s.c1};--cc2:${s.c2};" onclick="openSection('${s.id}')">
+      <div class="cat-icon"><i class="fas ${s.icon}"></i></div>
+      <div class="cat-body">
+        <h3>${esc(T_val(s.name))}</h3>
+        <p>${esc(T_val(s.desc))}</p>
       </div>
-      <i class="fas fa-external-link-alt pyq-arrow"></i>
-    </button>
-  `).join('');
-
-  // Stats
-  const all = loadAll();
-  let totalChaps = 0;
-  Object.keys(all).forEach(k => {
-    if(k.startsWith('c') && Array.isArray(all[k])) totalChaps += all[k].length;
-  });
-  $('w-stat-chap').innerText = totalChaps;
-
-  renderDue();
-}
-
-function pickClass(c){ state.cls = c; renderHome(); }
-
-function renderDue(){
-  const t = T_();
-  const wrap = $('due-list');
-  const today = new Date().toISOString().split('T')[0];
-  const all = loadAll();
-  const dueItems = [];
-  Object.keys(all).forEach(k => {
-    if(k.startsWith('c') && Array.isArray(all[k])){
-      all[k].forEach(ch => {
-        if(ch.nextRev && ch.nextRev <= today) dueItems.push({ch, key: k});
-      });
-    }
-  });
-
-  if(dueItems.length === 0){
-    wrap.innerHTML = `<div class="empty"><div class="empty-emo">✨</div><h4>${t.nothingDue}</h4><p>${t.nothingDueDesc}</p></div>`;
-    return;
-  }
-
-  wrap.innerHTML = dueItems.slice(0, 5).map(({ch, key}) => {
-    const parts = key.replace('c', '').split('_');
-    const cls = parts[0]; const bookId = parts[1];
-    const book = (NCERT_BOOKS[cls] || []).find(b => b.id === bookId);
-    return `<button class="rev-item due" onclick="openChapterByRef('${key}', '${ch.id}')">
-      <div class="rev-num">${(T_val(ch.name) || 'Ch')[0]}</div>
-      <div class="rev-body">
-        <h4>${esc(T_val(ch.name))}</h4>
-        <p><span class="due-tag">${t.reviseToday}</span> Class ${cls} · ${book ? esc(book.name[LANG]||book.name.hi) : ''}</p>
-      </div>
-      <i class="fas fa-chevron-right" style="color:var(--ink-4);"></i>
-    </button>`;
-  }).join('');
-}
-
-function goHome(){ state.book = null; state.currentChapter = null; showScreen('home'); renderHome(); }
-
-/* ================= CHAPTERS ================= */
-function openBook(bookId){
-  state.book = bookId;
-  const book = (NCERT_BOOKS[state.cls] || []).find(b => b.id === bookId);
-  if(!book) return;
-  $('chap-head-title').innerText = `Class ${state.cls} • ${book.name[LANG]||book.name.hi}`;
-  renderChapters();
-  showScreen('chapters');
-}
-
-function goToChapters(){
-  const book = (NCERT_BOOKS[state.cls] || []).find(b => b.id === state.book);
-  $('chap-head-title').innerText = `Class ${state.cls} • ${book ? (book.name[LANG]||book.name.hi) : ''}`;
-  renderChapters();
-  showScreen('chapters');
-}
-
-function renderChapters(){
-  const t = T_();
-  const list = $('chap-list');
-  const chaps = getChapters(state.cls, state.book);
-  if(chaps.length === 0){
-    list.innerHTML = `<div class="empty"><div class="empty-emo">📖</div><h4>${t.noChaps}</h4><p>${t.noChapsDesc}</p></div>`;
-    return;
-  }
-  list.innerHTML = chaps.map((ch, i) => `
-    <button class="chapter-item" onclick="openChapter('${ch.id}')">
-      <div class="chap-num">${i+1}</div>
-      <div class="chap-body">
-        <h4>${esc(T_val(ch.name))}</h4>
-        <p>${ch.points.length} ${t.points} ${ch.lastRev ? `• ${t.revised}` : ''}</p>
-      </div>
-      <i class="fas fa-chevron-right chap-arrow"></i>
+      <i class="fas fa-chevron-right cat-arrow"></i>
     </button>
   `).join('');
 }
 
-function openAddChapter(){ $('new-chap-name').value = ''; $('add-chap-modal').classList.add('open'); }
-function closeAddChapter(){ $('add-chap-modal').classList.remove('open'); }
-
-function createChapter(){
-  const t = T_();
-  const name = $('new-chap-name').value.trim();
-  if(!name){ toast(t.enterName); return; }
-  const chaps = getChapters(state.cls, state.book);
-  chaps.push({
-    id: 'ch_' + Date.now(),
-    name: {hi: name, en: name},
-    points: [],
-    nextRev: new Date().toISOString().split('T')[0],
-    lastRev: null, streak: 0
-  });
-  setChapters(state.cls, state.book, chaps);
-  closeAddChapter();
-  renderChapters();
-  toast(t.chapCreated);
-}
-
-function openChapter(chapId){
-  const chaps = getChapters(state.cls, state.book);
-  const ch = chaps.find(x => x.id === chapId);
-  if(!ch) return;
-  state.currentChapter = ch;
-  state.currentPoints = JSON.parse(JSON.stringify(ch.points || []));
-  renderBuilder();
-  showScreen('builder');
-}
-
-function openChapterByRef(key, chapId){
-  const parts = key.replace('c', '').split('_');
-  state.cls = parseInt(parts[0]);
-  state.book = parts[1];
-  openChapter(chapId);
-}
-
-function renderBuilder(){
-  const t = T_();
-  const book = (NCERT_BOOKS[state.cls] || []).find(b => b.id === state.book);
-  $('b-title').innerText = T_val(state.currentChapter.name);
-  $('b-sub').innerText = `Class ${state.cls} • ${book ? (book.name[LANG]||book.name.hi) : ''} — ${state.currentPoints.length} ${t.points}`;
-  renderPoints(); renderMnemonic();
-}
-
-/* ================= POINTS ================= */
-function addPoint(){
-  const t = T_();
-  const inp = $('point-inp');
-  const txt = inp.value.trim();
-  if(!txt){ toast(t.enterName); return; }
-  state.currentPoints.push({
-    id: Date.now(),
-    key: {hi: txt, en: txt},
-    desc: {hi: '', en: ''}
-  });
-  inp.value = '';
-  renderPoints(); renderMnemonic();
-}
-
-function delPoint(id){
-  state.currentPoints = state.currentPoints.filter(p => p.id !== id);
-  renderPoints(); renderMnemonic();
-}
-
-function renderPoints(){
-  const t = T_();
-  const list = $('point-list');
-  if(state.currentPoints.length === 0){
-    list.innerHTML = `<div class="empty" style="padding:24px;"><div class="empty-emo">💡</div><h4>${t.mnemonicEmpty}</h4></div>`;
-    return;
-  }
-  const colors = [['#6D28D9','#F59E0B'],['#059669','#10B981'],['#DC2626','#F59E0B'],['#0891B2','#06B6D4'],['#1E40AF','#3B82F6'],['#7C3AED','#EC4899']];
-  list.innerHTML = state.currentPoints.map((p, i) => {
-    const c = colors[i % colors.length];
-    return `<div class="mem-card" style="--mc:${c[0]};--mc2:${c[1]};">
-      <div class="mem-top"></div>
-      <div class="mem-body">
-        <div class="mem-num">${i+1}</div>
-        <div class="mem-content">
-          <div class="mem-key">${renderDesc(T_val(p.key))}</div>
-          ${T_val(p.desc) ? `<div class="mem-desc">${renderDesc(T_val(p.desc))}</div>` : ''}
-        </div>
-        <button class="mem-del" onclick="delPoint(${p.id})"><i class="fas fa-times"></i></button>
+function openSection(id){
+  const s = SECTIONS.find(x => x.id === id);
+  if(!s) return;
+  state.currentSection = s;
+  $('list-title').innerText = T_val(s.name);
+  $('list-desc').innerText = T_val(s.desc);
+  $('list-icon').className = 'fas ' + s.icon;
+  $('list-content').innerHTML = s.data.map(item => `
+    <button class="list-card" onclick="openLink('${item.url}')">
+      <div class="list-icon"><i class="fas ${item.icon}"></i></div>
+      <div class="list-body">
+        <h4>${esc(T_val(item.name))}</h4>
+        <p>${esc(T_val(item.desc))}</p>
       </div>
-    </div>`;
-  }).join('');
-}
-
-/* ================= MNEMONIC ================= */
-function renderMnemonic(){
-  const t = T_();
-  const pts = state.currentPoints;
-  const mnText = $('mn-text'); const mnSub = $('mn-sub');
-  if(pts.length === 0){ mnText.innerText = t.mnemonicEmpty; mnSub.innerText = ''; return; }
-  if(pts.length >= 3){
-    const acronym = pts.map(p => {
-      const s = T_val(p.key);
-      const first = s.replace(/[^\w\u0900-\u097F]/g, '')[0] || '?';
-      return first.toUpperCase();
-    }).join('');
-    mnText.innerText = `🔤 ${acronym}`;
-    mnSub.innerText = LANG === 'hi'
-      ? `हर point का पहला अक्षर — ${acronym} — इसे एक वाक्य की तरह याद रखो।`
-      : `First letter of each point — ${acronym} — remember as a sentence.`;
-    return;
-  }
-  if(pts.length === 2){
-    mnText.innerText = `🔗 "${T_val(pts[0].key).split(' ')[0]}" → "${T_val(pts[1].key).split(' ')[0]}"`;
-    mnSub.innerText = LANG === 'hi' ? 'दोनों को एक छोटी कहानी से जोड़ो।' : 'Connect both in a small story.';
-    return;
-  }
-  mnText.innerText = `📌 ${T_val(pts[0].key).split(' ').slice(0, 5).join(' ')}`;
-  mnSub.innerText = LANG === 'hi' ? 'इस point को एक तस्वीर की तरह imagine करो।' : 'Imagine this point as a picture.';
-}
-
-/* ================= SAVE ================= */
-function saveChapter(){
-  const t = T_();
-  if(!state.currentChapter) return;
-  const chaps = getChapters(state.cls, state.book);
-  const idx = chaps.findIndex(x => x.id === state.currentChapter.id);
-  if(idx === -1) return;
-  chaps[idx].points = state.currentPoints;
-  const today = new Date();
-  const lastRev = chaps[idx].lastRev ? new Date(chaps[idx].lastRev) : null;
-  const streak = chaps[idx].streak || 0;
-  if(!lastRev){
-    const next = new Date(today); next.setDate(next.getDate() + 1);
-    chaps[idx].nextRev = next.toISOString().split('T')[0];
-  } else {
-    const intervals = [1, 3, 7, 15, 30, 60, 120];
-    const interval = intervals[Math.min(streak, intervals.length - 1)];
-    const next = new Date(today); next.setDate(next.getDate() + interval);
-    chaps[idx].nextRev = next.toISOString().split('T')[0];
-  }
-  chaps[idx].lastRev = today.toISOString().split('T')[0];
-  chaps[idx].streak = (chaps[idx].streak || 0) + 1;
-  setChapters(state.cls, state.book, chaps);
-  state.currentChapter = chaps[idx];
-  toast(t.saveMsg);
-}
-
-function deleteChapter(){
-  const t = T_();
-  if(!state.currentChapter) return;
-  if(!confirm(t.deleteConfirm)) return;
-  const chaps = getChapters(state.cls, state.book).filter(x => x.id !== state.currentChapter.id);
-  setChapters(state.cls, state.book, chaps);
-  toast(t.deleted);
-  goToChapters();
-}
-
-/* ================= FLASHCARDS ================= */
-function startFlashcards(){
-  const t = T_();
-  if(state.currentPoints.length === 0){ toast(t.enterName); return; }
-  state.flashIdx = 0;
-  renderFlashcard();
-  showScreen('flash');
-}
-function renderFlashcard(){
-  const t = T_();
-  const pts = state.currentPoints;
-  if(state.flashIdx >= pts.length){
-    toast(LANG === 'hi' ? '🎉 सभी cards देख लिए!' : '🎉 All cards reviewed!');
-    showScreen('builder'); return;
-  }
-  const p = pts[state.flashIdx];
-  $('fc-progress').innerText = `${state.flashIdx + 1} / ${pts.length}`;
-  $('fc-title').innerText = T_val(state.currentChapter.name).substring(0, 22);
-  $('fc-num').innerText = `${t.card} ${state.flashIdx + 1}`;
-  $('fc-txt').innerText = T_val(p.key);
-  const card = $('flashcard');
-  card.classList.remove('revealed');
-  const oldAns = card.querySelector('.fc-answer');
-  if(oldAns) oldAns.remove();
-  const hint = card.querySelector('.fc-hint-tap');
-  if(hint) hint.style.display = 'block';
-}
-function revealCard(){
-  const card = $('flashcard');
-  if(card.classList.contains('revealed')) return;
-  card.classList.add('revealed');
-  const hint = card.querySelector('.fc-hint-tap');
-  if(hint) hint.style.display = 'none';
-  const div = document.createElement('div');
-  div.className = 'fc-answer';
-  const p = state.currentPoints[state.flashIdx];
-  div.innerHTML = '✓ ' + renderDesc(T_val(p.desc) || T_val(p.key));
-  card.appendChild(div);
-}
-function nextCard(){ state.flashIdx++; renderFlashcard(); }
-function quitFlash(){ showScreen('builder'); }
-
-/* ================= PYQ HUB ================= */
-function openPYQHub(){
-  const t = T_();
-  const list = $('pyq-list');
-  list.innerHTML = STATE_BOARDS.map(b => `
-    <button class="pyq-card" onclick="openBoard('${b.url}')">
-      <div class="pyq-icon">${b.emoji}</div>
-      <div class="pyq-body">
-        <h4>${esc(b.state[LANG]||b.state.hi)}</h4>
-        <p>${b.board} · Official Board</p>
-      </div>
-      <i class="fas fa-external-link-alt pyq-arrow"></i>
+      <i class="fas fa-external-link-alt list-arrow"></i>
     </button>
   `).join('');
-  showScreen('pyq');
+  showScreen('list');
 }
-function openBoard(url){ window.open(url, '_blank'); }
+
+function openLink(url){ window.open(url, '_blank'); }
+
+function goHome(){ showScreen('home'); }
 
 /* ================= SEARCH ================= */
 function doSearch(){
   const q = $('search-inp').value.toLowerCase().trim();
   if(!q) return;
-  const results = [];
-  const all = loadAll();
-  Object.keys(all).forEach(k => {
-    if(k.startsWith('c') && Array.isArray(all[k])){
-      const parts = k.replace('c','').split('_');
-      const cls = parts[0], bookId = parts[1];
-      all[k].forEach(ch => {
-        const name = T_val(ch.name).toLowerCase();
-        if(name.includes(q)){
-          results.push({cls, bookId, ch});
-        }
-      });
-    }
+  let found = null;
+  SECTIONS.forEach(s => {
+    s.data.forEach(item => {
+      if(T_val(item.name).toLowerCase().includes(q)){
+        found = {section:s, item};
+      }
+    });
   });
-  if(results.length === 0){ toast(LANG === 'hi' ? 'कुछ नहीं मिला' : 'No results'); return; }
-  // Navigate to first result
-  const r = results[0];
-  state.cls = parseInt(r.cls);
-  state.book = r.bookId;
-  openChapterByRef(`c${r.cls}_${r.bookId}`, r.ch.id);
+  if(found){
+    openLink(found.item.url);
+    toast(LANG === 'hi' ? 'खोल रहे हैं...' : 'Opening...');
+  } else {
+    toast(LANG === 'hi' ? 'कुछ नहीं मिला' : 'No results');
+  }
 }
 
 /* ================= SHARE ================= */
@@ -1235,21 +754,17 @@ const SHARE_URL = 'https://summitkummar.github.io/smriti/';
 function openShare(){ $('share-modal').classList.add('open'); }
 function closeShare(){ $('share-modal').classList.remove('open'); }
 function shareWhatsApp(){
-  const text = encodeURIComponent((LANG === 'hi' ? 'स्मृति — NCERT Memory Studio! Class 6-12 के हर चैप्टर को Visual Memory Cards में बदलो। ज़िंदगी भर याद रहेगा। 100% Offline, बिल्कुल फ्री।' : 'Smriti — NCERT Memory Studio! Convert every Class 6-12 chapter into Visual Memory Cards. Remember for life. 100% Offline, absolutely free.') + '\n\n' + SHARE_URL);
+  const text = encodeURIComponent((LANG === 'hi' ? 'स्मृति — UPSC & Exam Prep Hub! Current Affairs, PYQ, NCERT, State Boards — सब एक जगह। 100% Offline, बिल्कुल फ्री।' : 'Smriti — UPSC & Exam Prep Hub! Current Affairs, PYQ, NCERT, State Boards — all in one place. 100% Offline, absolutely free.') + '\n\n' + SHARE_URL);
   window.open('https://wa.me/?text=' + text, '_blank');
 }
 function shareFacebook(){ window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(SHARE_URL), '_blank'); }
 function shareTelegram(){
-  const text = encodeURIComponent(LANG === 'hi' ? 'स्मृति — NCERT Memory Studio!' : 'Smriti — NCERT Memory Studio!');
+  const text = encodeURIComponent(LANG === 'hi' ? 'स्मृति — UPSC & Exam Prep Hub!' : 'Smriti — UPSC & Exam Prep Hub!');
   window.open('https://t.me/share/url?url=' + encodeURIComponent(SHARE_URL) + '&text=' + text, '_blank');
 }
 function shareNative(){
   if(navigator.share){
-    navigator.share({
-      title: 'स्मृति — NCERT Memory Studio',
-      text: LANG === 'hi' ? 'Class 6-12 के हर चैप्टर को Visual Memory Cards में बदलो।' : 'Convert every Class 6-12 chapter into Visual Memory Cards.',
-      url: SHARE_URL
-    }).catch(()=>{});
+    navigator.share({title: 'स्मृति — Exam Prep Hub', text: 'Current Affairs, PYQ, NCERT — all in one place.', url: SHARE_URL}).catch(()=>{});
   } else { copyLink(); }
 }
 function copyLink(){
@@ -1284,13 +799,94 @@ function installApp(){
 }
 function hideInstallBanner(){ $('install-banner').classList.remove('show'); }
 
+/* ================= BUILDER (Memory Cards) ================= */
+function addPoint(){
+  const inp = $('point-inp');
+  const txt = inp.value.trim();
+  if(!txt){ toast(LANG === 'hi' ? 'कुछ लिखें' : 'Enter something'); return; }
+  state.currentPoints.push({id: Date.now(), key: txt, desc: ''});
+  inp.value = '';
+  renderPoints(); renderMnemonic();
+}
+function delPoint(id){
+  state.currentPoints = state.currentPoints.filter(p => p.id !== id);
+  renderPoints(); renderMnemonic();
+}
+function renderPoints(){
+  const list = $('point-list');
+  if(state.currentPoints.length === 0){
+    list.innerHTML = `<div class="empty" style="padding:24px;"><div class="empty-emo">💡</div><h4>${LANG === 'hi' ? 'Points जोड़ें — mnemonic अपने आप बनेगी' : 'Add points — mnemonic will auto-generate'}</h4></div>`;
+    return;
+  }
+  const colors = [['#6D28D9','#F59E0B'],['#059669','#10B981'],['#DC2626','#F59E0B'],['#0891B2','#06B6D4'],['#1E40AF','#3B82F6'],['#7C3AED','#EC4899']];
+  list.innerHTML = state.currentPoints.map((p, i) => {
+    const c = colors[i % colors.length];
+    return `<div class="mem-card" style="--mc:${c[0]};--mc2:${c[1]};">
+      <div class="mem-top"></div>
+      <div class="mem-body">
+        <div class="mem-num">${i+1}</div>
+        <div class="mem-content"><div class="mem-key">${esc(p.key)}</div>${p.desc ? `<div class="mem-desc">${esc(p.desc)}</div>` : ''}</div>
+        <button class="mem-del" onclick="delPoint(${p.id})"><i class="fas fa-times"></i></button>
+      </div>
+    </div>`;
+  }).join('');
+}
+function renderMnemonic(){
+  const pts = state.currentPoints;
+  const mnText = $('mn-text'); const mnSub = $('mn-sub');
+  if(pts.length === 0){ mnText.innerText = LANG === 'hi' ? 'Points जोड़ें — mnemonic अपने आप बनेगी' : 'Add points — mnemonic will auto-generate'; mnSub.innerText = ''; return; }
+  if(pts.length >= 3){
+    const acronym = pts.map(p => (p.key.replace(/[^\w\u0900-\u097F]/g,'')[0] || '?').toUpperCase()).join('');
+    mnText.innerText = `🔤 ${acronym}`;
+    mnSub.innerText = LANG === 'hi' ? `हर point का पहला अक्षर — ${acronym} — इसे वाक्य की तरह याद रखो।` : `First letter of each point — ${acronym} — remember as a sentence.`;
+    return;
+  }
+  if(pts.length === 2){
+    mnText.innerText = `🔗 "${pts[0].key.split(' ')[0]}" → "${pts[1].key.split(' ')[0]}"`;
+    mnSub.innerText = LANG === 'hi' ? 'दोनों को छोटी कहानी से जोड़ो।' : 'Connect both in a small story.';
+    return;
+  }
+  mnText.innerText = `📌 ${pts[0].key.split(' ').slice(0,5).join(' ')}`;
+  mnSub.innerText = LANG === 'hi' ? 'इस point को तस्वीर की तरह imagine करो।' : 'Imagine this point as a picture.';
+}
+function startFlashcards(){
+  if(state.currentPoints.length === 0){ toast(LANG === 'hi' ? 'पहले points जोड़ें' : 'Add points first'); return; }
+  state.flashIdx = 0;
+  renderFlashcard();
+  showScreen('flash');
+}
+function renderFlashcard(){
+  const pts = state.currentPoints;
+  if(state.flashIdx >= pts.length){ toast(LANG === 'hi' ? '🎉 सभी cards देख लिए!' : '🎉 All cards reviewed!'); showScreen('home'); return; }
+  const p = pts[state.flashIdx];
+  $('fc-progress').innerText = `${state.flashIdx + 1} / ${pts.length}`;
+  $('fc-title').innerText = 'Memory Card';
+  $('fc-num').innerText = `CARD ${state.flashIdx + 1}`;
+  $('fc-txt').innerText = p.key;
+  const card = $('flashcard');
+  card.classList.remove('revealed');
+  const oldAns = card.querySelector('.fc-answer'); if(oldAns) oldAns.remove();
+  const hint = card.querySelector('.fc-hint-tap'); if(hint) hint.style.display = 'block';
+}
+function revealCard(){
+  const card = $('flashcard');
+  if(card.classList.contains('revealed')) return;
+  card.classList.add('revealed');
+  const hint = card.querySelector('.fc-hint-tap'); if(hint) hint.style.display = 'none';
+  const div = document.createElement('div');
+  div.className = 'fc-answer';
+  div.innerText = '✓ ' + state.currentPoints[state.flashIdx].key;
+  card.appendChild(div);
+}
+function nextCard(){ state.flashIdx++; renderFlashcard(); }
+function quitFlash(){ showScreen('home'); }
+function saveChapter(){ toast(LANG === 'hi' ? '✓ Saved!' : '✓ Saved!'); }
+
 /* ================= INIT ================= */
 document.addEventListener('DOMContentLoaded', () => {
   setTimeout(() => { $('splash').classList.add('hide'); }, 2600);
   applyLang();
-  if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/smriti/sw.js').catch(()=>{});
-  }
+  if('serviceWorker' in navigator){ navigator.serviceWorker.register('/smriti/sw.js').catch(()=>{}); }
 });
 </script>
 </body>
